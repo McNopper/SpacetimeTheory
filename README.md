@@ -2,7 +2,7 @@
 
 by *Norbert Nopper*
 
-### Definition of a Quaternion
+## Definition of a Quaternion
 
 A quaternion is defined as:
 
@@ -12,7 +12,7 @@ where $w, p, r, s \in \mathbb{R}$ and the basis elements satisfy:
 
 $$\mathbf{i}^2 = \mathbf{j}^2 = \mathbf{k}^2 = \mathbf{i}\mathbf{j}\mathbf{k} = -1$$
 
-### Theory
+## Theory
 
 A spacetime event is represented as a quaternion:
 
@@ -30,7 +30,7 @@ All components $ct, x, y, z$ are expressions of the same underlying energetic re
 
 $$E = \frac{c^4}{2G} R$$
 
-### Expansion of the Universe
+## Expansion of the Universe
 
 When energy converts to mass via $E = mc^2$, the radius $R$ of the hypersphere grows — the universe expands. Thus $R$ is not a constant but a function of the total mass formed:
 
