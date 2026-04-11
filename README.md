@@ -6,9 +6,9 @@ by *Norbert Nopper*
 
 A quaternion is defined as:
 
-$$q = a + b\mathbf{i} + c\mathbf{j} + d\mathbf{k}$$
+$$q = w + p\mathbf{i} + r\mathbf{j} + s\mathbf{k}$$
 
-where $a, b, c, d \in \mathbb{R}$ and the basis elements satisfy:
+where $w, p, r, s \in \mathbb{R}$ and the basis elements satisfy:
 
 $$\mathbf{i}^2 = \mathbf{j}^2 = \mathbf{k}^2 = \mathbf{i}\mathbf{j}\mathbf{k} = -1$$
 
@@ -18,7 +18,7 @@ A spacetime event is represented as a quaternion:
 
 $$q = ct + x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$$
 
-where the components map as $a \equiv ct$, $b \equiv x$, $c \equiv y$, $d \equiv z$, with $t$ as time, $c$ as the speed of light, and $x, y, z$ as the spatial coordinates of the Cartesian coordinate system. This ensures all four components share the same unit of length [m].
+where the components map as $w \equiv ct$, $p \equiv x$, $r \equiv y$, $s \equiv z$, with $t$ as time, $c$ as the speed of light, and $x, y, z$ as the spatial coordinates of the Cartesian coordinate system. This ensures all four components share the same unit of length [m].
 
 Any point $q$ lies on a **hypersphere S³** of radius $R$, satisfying:
 
@@ -43,7 +43,7 @@ Here $E$ and $R$ track the **mass-energy** component only. At the singularity, n
 | Singularity | No mass formed ($m = 0$) | $R = 0$ |
 | Big Bang | Energy → mass begins | $R$ starts growing |
 | Present | Ongoing conversion | $R$ is large |
-| Future | Continued conversion | $R \to \infty$ |
+| Future | Conversion approaches completion | $R \to R_{\max} = \frac{2GE_{\text{total}}}{c^4}$ |
 
 Cosmic expansion is driven by the conversion $E = mc^2$, not by a cosmological constant.
 
