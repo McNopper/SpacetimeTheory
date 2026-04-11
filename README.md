@@ -57,6 +57,8 @@ https://en.wikipedia.org/wiki/N-sphere
 
 https://en.wikipedia.org/wiki/Quaternion
 
+https://en.wikipedia.org/wiki/Schwarzschild_radius
+
 https://en.wikipedia.org/wiki/Spacetime
 
 https://en.wikipedia.org/wiki/Time
