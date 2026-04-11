@@ -47,6 +47,18 @@ Here $E$ and $R$ track the **mass-energy** component only. At the singularity, n
 
 Cosmic expansion is driven by the conversion $E = mc^2$, not by a cosmological constant.
 
+## Novelty
+
+Each ingredient of this theory has precedent in the literature:
+
+- **Quaternions for spacetime** — explored since Hamilton, with contributions by Silberstein and others.
+- **S³ hypersphere cosmology** — proposed in various forms by Suntola, Carroll, and Ramírez.
+- **Schwarzschild radius as cosmic scale** — central to black hole cosmology models.
+- **Euclidean signature $(+,+,+,+)$** — used in quantum gravity via Wick rotation (Hawking–Hartle).
+- **Expansion without a cosmological constant** — pursued by several alternative cosmologies.
+
+What is novel is the **specific synthesis**: a single quaternion $q = ct + x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$ with Euclidean norm constraining all events to S³, whose radius $R$ is identified as the Schwarzschild radius of the total mass of the universe via $E = \frac{c^4}{2G} R$, with cosmic expansion driven entirely by energy-to-mass conversion.
+
 ## References
 
 https://en.wikipedia.org/wiki/Cartesian_coordinate_system
