@@ -1,5 +1,7 @@
 # Quaternion-Hypersphere Theory of Spacetime
 
+![Expansion of the Hypersphere S³](hypersphere_expansion.png)
+
 by *Norbert Nopper*
 
 ## Definition of a Quaternion
@@ -67,6 +69,15 @@ Several features distinguish this framework from standard ΛCDM cosmology:
 - **Euclidean signature** — The $(+,+,+,+)$ metric predicts no fundamental distinction between timelike and spacelike intervals. Any observed Lorentz-invariant phenomena must emerge as effective behavior, potentially testable through high-precision interferometry or cosmological observations at extreme scales.
 - **Finite maximum radius** — The universe has a definite upper bound $R_{\max} = \frac{2GE_{\text{total}}}{c^4}$, implying a closed spatial geometry. This could leave imprints in the cosmic microwave background (CMB) as suppressed large-angle correlations or matched-circle signatures.
 - **Schwarzschild radius coincidence** — The observable universe's radius should track the Schwarzschild radius of its total mass content. This relationship can be checked against current cosmological data for the observable mass-energy density and Hubble radius.
+
+## Outlook
+
+Once $R$ reaches $R_{\max}$, the long-term fate of the universe remains an open question within this framework. Two scenarios are possible:
+
+- **Stable** — If mass-to-energy reconversion processes (e.g. Hawking radiation, matter–antimatter annihilation) are negligible at cosmic scales, the universe remains at $R_{\max}$ as a static S³.
+- **Cyclic** — If reconversion is significant, $m$ decreases, $R$ shrinks, and the universe may contract back toward $R = 0$, potentially triggering a new cycle of expansion.
+
+Determining which scenario holds requires further investigation into the long-term balance between mass formation and reconversion, and may be constrained by future cosmological observations.
 
 ## References
 
