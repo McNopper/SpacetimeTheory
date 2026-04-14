@@ -18,13 +18,13 @@ A spacetime event is represented as a quaternion:
 
 $$q = ct + x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$$
 
-where the components map as $w \equiv ct$, $p \equiv x$, $r \equiv y$, $s \equiv z$, with $t$ as time, $c$ as the speed of light, and $x, y, z$ as the spatial coordinates of the Cartesian coordinate system. This ensures all four components share the same unit of length [m].
+where the components map as $w \equiv ct$, $p \equiv x$, $r \equiv y$, $s \equiv z$. Here $t$ is time, $c$ is the speed of light, and $x, y, z$ are the spatial coordinates of the Cartesian coordinate system. Scaling time by $c$ ensures all four components share the same unit of length [m].
 
 Any point $q$ lies on a **hypersphere S³** of radius $R$, satisfying:
 
 $$|q| = \sqrt{c^2t^2 + x^2 + y^2 + z^2} = R$$
 
-This places time and space on equal footing with a Euclidean signature $(+,+,+,+)$. Note that this differs from the Minkowski signature $(-,+,+,+)$ of standard Special Relativity; in this framework, concepts such as Lorentz invariance and causal structure require separate treatment.
+This places time and space on equal footing with a Euclidean signature $(+,+,+,+)$. Note that this differs from the Minkowski signature $(-,+,+,+)$ of standard Special Relativity; in this framework, concepts such as Lorentz invariance and causal structure require separate treatment. In particular, causal ordering may emerge from the constraint that all events lie on S³ and from the monotonic growth of $R$, rather than from the metric signature itself.
 
 All components $ct, x, y, z$ are expressions of the same underlying energetic reality — spacetime **is** energy. The quaternion norm $|q| = R$ is the Schwarzschild radius of the total mass $m$ of the universe, directly proportional to the mass-energy:
 
@@ -32,7 +32,7 @@ $$E = \frac{c^4}{2G} R$$
 
 ## Expansion of the Universe
 
-When energy converts to mass via $E = mc^2$, the radius $R$ of the hypersphere grows — the universe expands. Thus $R$ is not a constant but a function of the total mass formed:
+When energy materializes into massive particles (e.g. pair production), the total mass $m$ increases and the radius $R$ of the hypersphere grows — the universe expands. Thus $R$ is not a constant but a function of the total mass formed:
 
 $$R = \frac{2Gm}{c^2}$$
 
@@ -59,18 +59,21 @@ Each ingredient of this theory has precedent in the literature:
 
 What is novel is the **specific synthesis**: a single quaternion $q = ct + x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$ with Euclidean norm constraining all events to S³, whose radius $R$ is identified as the Schwarzschild radius of the total mass of the universe via $E = \frac{c^4}{2G} R$, with cosmic expansion driven entirely by energy-to-mass conversion.
 
+## Observable Implications
+
+Several features distinguish this framework from standard ΛCDM cosmology:
+
+- **No cosmological constant** — Expansion is driven by energy-to-mass conversion rather than dark energy. The predicted expansion history differs from ΛCDM, particularly at late times when conversion slows and $R$ asymptotically approaches $R_{\max}$.
+- **Euclidean signature** — The $(+,+,+,+)$ metric predicts no fundamental distinction between timelike and spacelike intervals. Any observed Lorentz-invariant phenomena must emerge as effective behavior, potentially testable through high-precision interferometry or cosmological observations at extreme scales.
+- **Finite maximum radius** — The universe has a definite upper bound $R_{\max} = \frac{2GE_{\text{total}}}{c^4}$, implying a closed spatial geometry. This could leave imprints in the cosmic microwave background (CMB) as suppressed large-angle correlations or matched-circle signatures.
+- **Schwarzschild radius coincidence** — The observable universe's radius should track the Schwarzschild radius of its total mass content. This relationship can be checked against current cosmological data for the observable mass-energy density and Hubble radius.
+
 ## References
 
-https://en.wikipedia.org/wiki/Cartesian_coordinate_system
-
-https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence
-
-https://en.wikipedia.org/wiki/N-sphere
-
-https://en.wikipedia.org/wiki/Quaternion
-
-https://en.wikipedia.org/wiki/Schwarzschild_radius
-
-https://en.wikipedia.org/wiki/Spacetime
-
-https://en.wikipedia.org/wiki/Time
+- [Cartesian coordinate system](https://en.wikipedia.org/wiki/Cartesian_coordinate_system)
+- [Mass–energy equivalence](https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence)
+- [N-sphere](https://en.wikipedia.org/wiki/N-sphere)
+- [Quaternion](https://en.wikipedia.org/wiki/Quaternion)
+- [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius)
+- [Spacetime](https://en.wikipedia.org/wiki/Spacetime)
+- [Time](https://en.wikipedia.org/wiki/Time)
