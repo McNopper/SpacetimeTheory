@@ -32,6 +32,8 @@ All components $ct, x, y, z$ are expressions of the same underlying energetic re
 
 $$E = \frac{c^4}{2G} R$$
 
+where $G$ is the gravitational constant.
+
 ## Expansion of the Universe
 
 When energy materializes into massive particles (e.g. pair production), the total mass $m$ increases and the radius $R$ of the hypersphere grows — the universe expands. Thus $R$ is not a constant but a function of the total mass formed:
