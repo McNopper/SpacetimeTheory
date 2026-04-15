@@ -2,7 +2,11 @@
 
 ### *Time is geometric*
 
+![Time–Space Constraint on S³](time_space_constraint.png)
+
 by *Norbert Nopper*
+
+Time is defined as:
 
 $$t = \frac{\sqrt{R^2 - r^2}}{c}$$
 
