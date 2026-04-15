@@ -55,6 +55,14 @@ $$t = \frac{\sqrt{\dfrac{4G^2m^2}{c^4} - r^2}}{c}$$
 
 Time is not an independent parameter — it is geometrically determined by your position on S³ and the total mass of the universe.
 
+## Outlook 🚀💫
+
+In Einstein's Special Relativity, the Minkowski signature $(-,+,+,+)$ produces the Lorentz factor, which creates an infinite energy barrier at the speed of light — making faster-than-light travel impossible for massive objects.
+
+In the Quaternion-Hypersphere Theory, the Euclidean signature $(+,+,+,+)$ removes this barrier. The constraint $(ct)^2 + r^2 = R^2$ limits where events can occur on S³, but does not impose a speed limit. Without a Lorentz factor, there is no fundamental prohibition of faster-than-light travel.
+
+Whether faster-than-light travel is physically realizable remains an open question — the dynamics of motion on S³ have not yet been derived.
+
 ## References
 
 - [Quaternion-Hypersphere Theory of Spacetime](README.md)
