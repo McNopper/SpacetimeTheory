@@ -74,12 +74,7 @@ Several features distinguish this framework from standard ΛCDM cosmology:
 
 ## Outlook
 
-Once $R$ reaches $R_{\max}$, the long-term fate of the universe remains an open question within this framework. Two scenarios were initially considered:
-
-- **Stable** — If mass-to-energy reconversion processes (e.g. Hawking radiation, matter–antimatter annihilation) are negligible at cosmic scales, the universe remains at $R_{\max}$ as a static S³.
-- **Cyclic** — If reconversion is significant, $m$ decreases, $R$ shrinks, and the universe may contract back toward $R = 0$, potentially triggering a new cycle of expansion.
-
-However, causal ordering in this framework depends on the monotonic growth of $R$: events are ordered by epoch, with $R_1 < R_2$ meaning "before." If $R$ were to shrink, this ordering would break down, and causality — which is empirically observed — would be violated. This suggests that the **stable scenario is the only self-consistent one**: $R$ must grow monotonically, and the universe remains at $R_{\max}$ once all energy has converted to mass.
+For the long-term fate of the universe, open questions, and future development of the theory, see [Outlook](Outlook.md).
 
 ## References
 

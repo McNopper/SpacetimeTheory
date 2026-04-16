@@ -8,18 +8,6 @@ The Quaternion-Hypersphere Theory of Spacetime provides a geometric framework �
 
 What remains open is the quantitative machinery. This document collects the key areas where the theory requires further development.
 
-## Energy-Velocity Relation on S³ ✅
-
-This question has been resolved. Starting from the Lagrangian for a free particle of mass $m_p$ on S³:
-
-$$\mathcal{L} = \frac{1}{2} m_p R^2 \left[ \dot{\chi}^2 + \sin^2\chi \left( \dot{\theta}^2 + \sin^2\theta \, \dot{\phi}^2 \right) \right]$$
-
-the Euler-Lagrange equations yield geodesics (great circles) at constant angular velocity $\omega$, and the kinetic energy is:
-
-$$E_{\text{kin}} = \frac{1}{2} m_p R^2 \omega^2 = \frac{1}{2} m_p v_{S^3}^2$$
-
-This is exactly the Newtonian form — quadratic in speed, no Lorentz factor, no divergence at any velocity. The Lorentz factor $\gamma = 1/\sqrt{1-v^2/c^2}$ requires the minus sign of the Minkowski metric and the four-velocity normalization $g_{\mu\nu}u^\mu u^\nu = -c^2$; neither exists on S³ with Euclidean signature. See [Faster Than Light](FasterThanLight.md) for the full derivation.
-
 ## Effective Lorentz Invariance
 
 The theory uses a Euclidean signature, yet Lorentz invariance is experimentally confirmed to extraordinary precision. The framework must explain how Lorentz-invariant behavior emerges as an effective phenomenon. Possible directions:
@@ -93,7 +81,6 @@ These connections are suggestive but unexplored within the present framework.
 
 | Area | Status | Priority |
 |------|--------|----------|
-| Energy-velocity relation | **Derived** | High |
 | Effective Lorentz invariance | Qualitative argument | High |
 | Expansion history vs. ΛCDM | Not yet computed | High |
 | CMB signatures | Identified, not quantified | Medium |

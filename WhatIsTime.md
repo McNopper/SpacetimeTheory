@@ -55,11 +55,9 @@ $$t = \frac{\sqrt{\dfrac{4G^2m^2}{c^4} - r^2}}{c}$$
 
 Time is not an independent parameter — it is geometrically determined by your position on S³ and the total mass of the universe.
 
-## Outlook 🚀💫
-
-The Euclidean signature $(+,+,+,+)$ removes the Lorentz factor and with it the infinite energy barrier at the speed of light. Without this barrier, faster-than-light travel is not fundamentally prohibited. See [Faster Than Light](FasterThanLight.md) for a detailed analysis.
-
 ## References
 
 - [Quaternion-Hypersphere Theory of Spacetime](README.md)
+- [Faster Than Light](FasterThanLight.md)
+- [Outlook](Outlook.md)
 - [Time](https://en.wikipedia.org/wiki/Time)
