@@ -93,5 +93,7 @@ However, causal ordering in this framework depends on the monotonic growth of $R
 
 ## See Also
 
+- [Summary](Summary.md) — High-level overview of the theory and its implications
 - [What is Time?](WhatIsTime.md) — Time as a geometric coordinate on S³
 - [Faster Than Light](FasterThanLight.md) — Why the Euclidean signature removes the light speed barrier
+- [Outlook](Outlook.md) — Open questions and future development of the theory

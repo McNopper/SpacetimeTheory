@@ -18,6 +18,10 @@ Time and space share a finite budget set by $R$. More spatial distance means les
 
 The Euclidean signature removes the Lorentz factor — the mechanism that forbids faster-than-light travel in Special Relativity. On S³, there is no energy divergence at the speed of light. Causality is preserved not by a speed limit but by the monotonic growth of $R$: you can move faster than light, but only into the future, never the past.
 
+## [Outlook](Outlook.md)
+
+The theory's geometric framework is established, but quantitative development remains: a rigorous energy-velocity derivation on S³, an explanation of how Lorentz invariance emerges effectively from the Euclidean signature, a computed expansion history comparable to ΛCDM, and testable predictions for CMB signatures and the Schwarzschild radius coincidence. See [Outlook](Outlook.md) for the full roadmap.
+
 ## Conclusion
 
 Imagine the universe as the surface of a balloon 🎈. As more mass forms, the balloon inflates — that's $R$ growing. Everything that happens takes place on this surface, and there are only two things to spend: time ⏳ and space 🌌. Use more of one, you get less of the other. That's the trade-off.

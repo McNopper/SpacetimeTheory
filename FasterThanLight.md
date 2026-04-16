@@ -42,15 +42,67 @@ This contrasts with Minkowski spacetime, where the metric signature forces timel
 
 In Special Relativity, the energy of a massive object is:
 
-$$E = \gamma mc^2 = \frac{mc^2}{\sqrt{1 - \dfrac{v^2}{c^2}}}$$
+$$E = \gamma m_p c^2 = \frac{m_p c^2}{\sqrt{1 - \dfrac{v^2}{c^2}}}$$
 
-This diverges as $v \to c$ — the infinite energy barrier.
+where $m_p$ is the mass of the object. This diverges as $v \to c$ — the infinite energy barrier. To derive the corresponding result on S³, we begin from first principles.
 
-On S³, the quaternion norm of every event is $|q| = R$, independent of how the event distributes its components between time and space. Moving on the hypersphere does not change $|q|$. By analogy to classical mechanics on a sphere, the kinetic energy of a particle on S³ is proportional to its angular velocity squared:
+### Lagrangian on S³
 
-$$E_{\text{kin}} \propto R^2 \dot{\theta}^2$$
+A particle of mass $m_p$ moves on S³ of radius $R$. In hyperspherical coordinates $(\chi, \theta, \phi)$, the spacetime coordinates are:
 
-This grows smoothly with speed — like Newtonian kinetic energy $\frac{1}{2}mv^2$. There is no divergence at $v = c$ or at any other speed. A rigorous derivation of the energy-velocity relation on S³ remains to be developed, but the Euclidean signature provides no mechanism for a divergence.
+$$ct = R\cos\chi, \qquad r = R\sin\chi$$
+
+where $r$ decomposes further via $\theta$ and $\phi$. The induced metric on S³ is:
+
+$$ds^2 = R^2 \left[ d\chi^2 + \sin^2\chi \left( d\theta^2 + \sin^2\theta \, d\phi^2 \right) \right]$$
+
+The Lagrangian for a free particle on this manifold is:
+
+$$\mathcal{L} = \frac{1}{2} m_p \, g_{ab} \, \dot{q}^a \dot{q}^b = \frac{1}{2} m_p R^2 \left[ \dot{\chi}^2 + \sin^2\chi \left( \dot{\theta}^2 + \sin^2\theta \, \dot{\phi}^2 \right) \right]$$
+
+where dots denote derivatives with respect to an affine parameter $\lambda$.
+
+### Equations of Motion
+
+The Euler-Lagrange equation for $\chi$ (with $\dot{\theta} = \dot{\phi} = 0$ for motion along a single great circle) gives:
+
+$$\ddot{\chi} = 0 \quad \Longrightarrow \quad \chi(\lambda) = \chi_0 + \omega\lambda$$
+
+Free particles trace great circles at constant angular velocity $\omega$ — the geodesics of S³.
+
+### Kinetic Energy
+
+The kinetic energy follows directly:
+
+$$E_{\text{kin}} = \frac{1}{2} m_p R^2 \omega^2 = \frac{1}{2} m_p v_{S^3}^2$$
+
+where $v_{S^3} = R\omega$ is the arc velocity on S³. This is the Newtonian form:
+
+- Quadratic growth with speed — no divergence at any velocity
+- No Lorentz factor $\gamma$ appears
+- The conjugate momentum $p_\chi = m_p R^2 \omega$ is linear in $\omega$
+
+For the general case (motion in all three angular directions), the energy is:
+
+$$E_{\text{kin}} = \frac{1}{2} m_p R^2 \left[ \dot{\chi}^2 + \sin^2\chi \left( \dot{\theta}^2 + \sin^2\theta \, \dot{\phi}^2 \right) \right]$$
+
+which remains quadratic in the angular velocities.
+
+### Why No Lorentz Factor
+
+In Special Relativity, the Lorentz factor arises from two features of the Minkowski metric:
+
+1. The minus sign in $ds^2 = -c^2 dt^2 + dr^2$
+2. The four-velocity normalization $g_{\mu\nu} u^\mu u^\nu = -c^2$
+
+Together, these produce $\gamma = 1/\sqrt{1 - v^2/c^2}$ and the energy divergence at $v = c$.
+
+On S³ with Euclidean signature $(+,+,+,+)$:
+
+1. The metric has all positive terms: $ds^2 = R^2 d\chi^2 + \ldots$
+2. The quantity $g_{ab} u^a u^b = v_{S^3}^2$ is determined by initial conditions, not fixed by a constraint
+
+Neither ingredient of the Lorentz factor exists. The energy is $\frac{1}{2} m_p v_{S^3}^2$ for all speeds, with no barrier at $v_{S^3} = c$ or anywhere else.
 
 ## Causality
 
