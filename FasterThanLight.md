@@ -1,6 +1,6 @@
 # Faster Than Light 🚀💫
 
-### *no barrier on S³*
+### *beyond light speed is possible*
 
 by *Norbert Nopper*
 
@@ -20,7 +20,7 @@ As $v \to c$, the Lorentz factor $\gamma \to \infty$. The relativistic energy of
 
 $$E = \gamma mc^2$$
 
-This means accelerating a massive object to the speed of light requires infinite energy — an absolute barrier.
+where $m$ is the mass of the object. This means accelerating a massive object to the speed of light requires infinite energy — an absolute barrier.
 
 ## No Lorentz Factor on S³
 
@@ -31,16 +31,6 @@ $$(ct)^2 + r^2 = R^2$$
 where $r = \sqrt{x^2 + y^2 + z^2}$ is the spatial distance and $R$ is the radius of the hypersphere S³.
 
 The minus sign in $(1 - v^2/c^2)$ that produces the Lorentz factor originates from the Minkowski signature. With a Euclidean signature, this term does not arise. There is no $\gamma$, no divergence at $v = c$, and no infinite energy barrier.
-
-## What the Constraint Allows
-
-The hypersphere constraint limits *where* events can occur, but not *how fast* an object moves between them:
-
-- At $v = c$: $r = ct$, giving $(ct)^2 + (ct)^2 = R^2$, so $ct = \frac{R}{\sqrt{2}}$ — the midpoint of the time-space trade-off.
-- At $v > c$: more spatial distance is covered per unit of time — the event moves toward the space-dominated side of S³.
-- At $v < c$: less spatial distance — the event stays on the time-dominated side.
-
-All three cases are geometrically valid on S³. No case produces a singularity or requires infinite energy from the constraint alone.
 
 ## Dynamics
 
@@ -56,11 +46,11 @@ $$E = \gamma mc^2 = \frac{mc^2}{\sqrt{1 - \dfrac{v^2}{c^2}}}$$
 
 This diverges as $v \to c$ — the infinite energy barrier.
 
-On S³, the quaternion norm of every event is $|q| = R$, independent of how the event distributes its components between time and space. Moving on the hypersphere does not change $|q|$. The kinetic energy of a particle on S³ is proportional to its angular velocity squared:
+On S³, the quaternion norm of every event is $|q| = R$, independent of how the event distributes its components between time and space. Moving on the hypersphere does not change $|q|$. By analogy to classical mechanics on a sphere, the kinetic energy of a particle on S³ is proportional to its angular velocity squared:
 
 $$E_{\text{kin}} \propto R^2 \dot{\theta}^2$$
 
-This grows smoothly with speed — like Newtonian kinetic energy $\frac{1}{2}mv^2$. There is no divergence at $v = c$ or at any other speed. The energy cost of faster-than-light travel is finite.
+This grows smoothly with speed — like Newtonian kinetic energy $\frac{1}{2}mv^2$. There is no divergence at $v = c$ or at any other speed. A rigorous derivation of the energy-velocity relation on S³ remains to be developed, but the Euclidean signature provides no mechanism for a divergence.
 
 ## Causality
 
@@ -74,6 +64,22 @@ On S³, causality does not depend on a speed limit. Instead, it emerges from the
 - Returning to a smaller $R$ would require mass to convert back to energy, which is cosmologically suppressed
 
 Causal order is preserved by the **direction of the universe's expansion**, not by a local speed limit. A particle can move at any speed on S³ at a given $R$, but it cannot travel backward to an earlier epoch.
+
+Note: The parent theory's Outlook considers a cyclic scenario where $R$ may eventually shrink. If reconversion of mass to energy becomes significant, the monotonic growth of $R$ — and with it this causality argument — would require revisiting.
+
+## Summary
+
+What the theory permits:
+
+- Moving faster than light through space at a given epoch
+- Arriving at distant locations in less time than light would
+
+What the theory does not permit:
+
+- Traveling backward in time — this would require $R$ to shrink
+- Causal paradoxes — epochs are strictly ordered by $R$
+
+Faster-than-light travel on S³ is a question of propulsion, not of fundamental physics. The destination is the future, never the past.
 
 ## References
 
