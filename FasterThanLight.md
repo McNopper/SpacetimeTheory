@@ -18,9 +18,9 @@ where
 
 As $v \to c$, the Lorentz factor $\gamma \to \infty$. The relativistic energy of a massive object is:
 
-$$E = \gamma mc^2$$
+$$E = \gamma m_p c^2$$
 
-where $m$ is the mass of the object. This means accelerating a massive object to the speed of light requires infinite energy — an absolute barrier.
+where $m_p$ is the mass of the object. This means accelerating a massive object to the speed of light requires infinite energy — an absolute barrier.
 
 ## No Lorentz Factor on S³
 
@@ -137,5 +137,7 @@ Faster-than-light travel on S³ is a question of propulsion, not of fundamental 
 
 - [Quaternion-Hypersphere Theory of Spacetime](README.md)
 - [What is Time?](WhatIsTime.md)
+- [Summary](Summary.md)
+- [Outlook](Outlook.md)
 - [Lorentz factor](https://en.wikipedia.org/wiki/Lorentz_factor)
 - [Faster-than-light](https://en.wikipedia.org/wiki/Faster-than-light)

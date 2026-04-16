@@ -59,5 +59,6 @@ Time is not an independent parameter — it is geometrically determined by your 
 
 - [Quaternion-Hypersphere Theory of Spacetime](README.md)
 - [Faster Than Light](FasterThanLight.md)
+- [Summary](Summary.md)
 - [Outlook](Outlook.md)
 - [Time](https://en.wikipedia.org/wiki/Time)

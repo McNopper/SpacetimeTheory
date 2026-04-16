@@ -91,4 +91,3 @@ For the long-term fate of the universe, open questions, and future development o
 - [Summary](Summary.md) — High-level overview of the theory and its implications
 - [What is Time?](WhatIsTime.md) — Time as a geometric coordinate on S³
 - [Faster Than Light](FasterThanLight.md) — Why the Euclidean signature removes the light speed barrier
-- [Outlook](Outlook.md) — Open questions and future development of the theory
