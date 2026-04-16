@@ -57,11 +57,7 @@ Time is not an independent parameter — it is geometrically determined by your 
 
 ## Outlook 🚀💫
 
-In Einstein's Special Relativity, the Minkowski signature $(-,+,+,+)$ produces the Lorentz factor, which creates an infinite energy barrier at the speed of light — making faster-than-light travel impossible for massive objects.
-
-In the Quaternion-Hypersphere Theory, the Euclidean signature $(+,+,+,+)$ removes this barrier. The constraint $(ct)^2 + r^2 = R^2$ limits where events can occur on S³, but does not impose a speed limit. Without a Lorentz factor, there is no fundamental prohibition of faster-than-light travel.
-
-Whether faster-than-light travel is physically realizable remains an open question — the dynamics of motion on S³ have not yet been derived.
+The Euclidean signature $(+,+,+,+)$ removes the Lorentz factor and with it the infinite energy barrier at the speed of light. Without this barrier, faster-than-light travel is not fundamentally prohibited. See [Faster Than Light](FasterThanLight.md) for a detailed analysis.
 
 ## References
 

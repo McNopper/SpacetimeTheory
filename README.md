@@ -26,7 +26,7 @@ Any point $q$ lies on a **hypersphere S³** of radius $R$, satisfying:
 
 $$|q| = \sqrt{c^2t^2 + x^2 + y^2 + z^2} = R$$
 
-This places time and space on equal footing with a Euclidean signature $(+,+,+,+)$. Note that this differs from the Minkowski signature $(-,+,+,+)$ of standard Special Relativity; in this framework, concepts such as Lorentz invariance and causal structure require separate treatment. In particular, causal ordering may emerge from the constraint that all events lie on S³ and from the monotonic growth of $R$, rather than from the metric signature itself.
+This places time and space on equal footing with a Euclidean signature $(+,+,+,+)$. Note that this differs from the Minkowski signature $(-,+,+,+)$ of standard Special Relativity; in this framework, concepts such as Lorentz invariance and causal structure require separate treatment. In particular, causal ordering emerges from the constraint that all events lie on S³ and from the monotonic growth of $R$, rather than from the metric signature itself.
 
 All components $ct, x, y, z$ are expressions of the same underlying energetic reality — spacetime **is** energy. The quaternion norm $|q| = R$ is the Schwarzschild radius of the total mass $m$ of the universe, directly proportional to the mass-energy:
 
@@ -74,12 +74,12 @@ Several features distinguish this framework from standard ΛCDM cosmology:
 
 ## Outlook
 
-Once $R$ reaches $R_{\max}$, the long-term fate of the universe remains an open question within this framework. Two scenarios are possible:
+Once $R$ reaches $R_{\max}$, the long-term fate of the universe remains an open question within this framework. Two scenarios were initially considered:
 
 - **Stable** — If mass-to-energy reconversion processes (e.g. Hawking radiation, matter–antimatter annihilation) are negligible at cosmic scales, the universe remains at $R_{\max}$ as a static S³.
 - **Cyclic** — If reconversion is significant, $m$ decreases, $R$ shrinks, and the universe may contract back toward $R = 0$, potentially triggering a new cycle of expansion.
 
-Determining which scenario holds requires further investigation into the long-term balance between mass formation and reconversion, and may be constrained by future cosmological observations.
+However, causal ordering in this framework depends on the monotonic growth of $R$: events are ordered by epoch, with $R_1 < R_2$ meaning "before." If $R$ were to shrink, this ordering would break down, and causality — which is empirically observed — would be violated. This suggests that the **stable scenario is the only self-consistent one**: $R$ must grow monotonically, and the universe remains at $R_{\max}$ once all energy has converted to mass.
 
 ## References
 
@@ -90,3 +90,8 @@ Determining which scenario holds requires further investigation into the long-te
 - [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius)
 - [Spacetime](https://en.wikipedia.org/wiki/Spacetime)
 - [Time](https://en.wikipedia.org/wiki/Time)
+
+## See Also
+
+- [What is Time?](WhatIsTime.md) — Time as a geometric coordinate on S³
+- [Faster Than Light](FasterThanLight.md) — Why the Euclidean signature removes the light speed barrier

@@ -65,7 +65,7 @@ On S³, causality does not depend on a speed limit. Instead, it emerges from the
 
 Causal order is preserved by the **direction of the universe's expansion**, not by a local speed limit. A particle can move at any speed on S³ at a given $R$, but it cannot travel backward to an earlier epoch.
 
-Note: The parent theory's Outlook considers a cyclic scenario where $R$ may eventually shrink. If reconversion of mass to energy becomes significant, the monotonic growth of $R$ — and with it this causality argument — would require revisiting.
+This has a further implication: if $R$ were to shrink (as in a cyclic scenario), causal ordering would break down — events could no longer be strictly ordered by epoch. Since causality is empirically observed, the monotonic growth of $R$ is not merely an assumption but a requirement of the theory. This favors the stable scenario described in the parent theory, where the universe remains at $R_{\max}$ once all energy has converted to mass.
 
 ## Summary
 
