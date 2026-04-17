@@ -110,5 +110,5 @@ These connections are suggestive but unexplored within the present framework.
 - [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment)
 - [Path integral formulation](https://en.wikipedia.org/wiki/Path_integral_formulation)
 - [Schwarzschild metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)
-- [SU(2)](https://en.wikipedia.org/wiki/Special_unitary_group#n_=_2)
+- [SU(2)](https://en.wikipedia.org/wiki/Special_unitary_group#The_group_SU(2))
 - [Wick rotation](https://en.wikipedia.org/wiki/Wick_rotation)
