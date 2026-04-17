@@ -12,6 +12,8 @@ by *Norbert Nopper*
 
 ### *Where the theory goes from here*
 
+![Open Questions Roadmap](open_questions_roadmap.png)
+
 The Quaternion-Hypersphere Theory of Spacetime provides a geometric framework — quaternion events on S³ with Euclidean signature $(+,+,+,+)$ and $R$ as the Schwarzschild radius of the total mass. Several results follow directly: time as a geometric coordinate, the absence of a light speed barrier, and causal ordering from monotonic $R$ growth.
 
 What remains open is the quantitative machinery. This document collects the key areas where the theory requires further development.

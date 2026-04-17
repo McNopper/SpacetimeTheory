@@ -12,6 +12,8 @@ by *Norbert Nopper*
 
 ### *Beyond light speed is possible*
 
+![Energy–Velocity Comparison](energy_velocity_comparison.png)
+
 ## The Light Speed Barrier in Special Relativity
 
 In Einstein's Special Relativity, the Minkowski signature $(-,+,+,+)$ produces the Lorentz factor:

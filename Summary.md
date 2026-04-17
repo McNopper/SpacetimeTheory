@@ -12,6 +12,8 @@ by *Norbert Nopper*
 
 ### *The theory at a glance*
 
+![Theory Overview](theory_overview.png)
+
 ## [Quaternion-Hypersphere Theory of Spacetime](README.md)
 
 A spacetime event is a quaternion $q = ct + x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$ on a hypersphere S³ of radius $R$. Time and space share a Euclidean signature $(+,+,+,+)$, and the radius $R$ equals the Schwarzschild radius of the total mass of the universe. The universe expands as energy converts to mass, driving $R$ from zero toward a finite maximum $R_{\max}$.
