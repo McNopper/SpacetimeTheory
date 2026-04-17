@@ -1,5 +1,7 @@
 # Spacetime Theory
 
+### *Empathy with the Universe*
+
 by *Norbert Nopper*
 
 - **[Quaternion-Hypersphere Theory](#quaternion-hypersphere-theory-of-spacetime-)**
