@@ -127,7 +127,7 @@ Causal order is preserved by the **direction of the universe's expansion**, not 
 
 This has a further implication: if $R$ were to shrink (as in a cyclic scenario), causal ordering would break down — events could no longer be strictly ordered by epoch. Since causality is empirically observed, the monotonic growth of $R$ is not merely an assumption but a requirement of the theory. This favors the stable scenario described in the parent theory, where the universe remains at $R_{\max}$ once all energy has converted to mass.
 
-## Summary
+## Conclusion
 
 What the theory permits:
 

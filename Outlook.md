@@ -98,10 +98,6 @@ These connections are suggestive but unexplored within the present framework.
 
 ## References
 
-- [Quaternion-Hypersphere Theory of Spacetime](README.md)
-- [What is Time?](WhatIsTime.md)
-- [Faster Than Light](FasterThanLight.md)
-- [Summary](Summary.md)
 - [Cosmic microwave background](https://en.wikipedia.org/wiki/Cosmic_microwave_background)
 - [Friedmann equations](https://en.wikipedia.org/wiki/Friedmann_equations)
 - [Lorentz covariance](https://en.wikipedia.org/wiki/Lorentz_covariance)
