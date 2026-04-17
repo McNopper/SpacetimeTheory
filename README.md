@@ -83,9 +83,16 @@ Several features distinguish this framework from standard ΛCDM cosmology:
 ## References
 
 - [Cartesian coordinate system](https://en.wikipedia.org/wiki/Cartesian_coordinate_system)
+- [Cosmic microwave background](https://en.wikipedia.org/wiki/Cosmic_microwave_background)
+- [Cosmological constant](https://en.wikipedia.org/wiki/Cosmological_constant)
+- [Gravitational constant](https://en.wikipedia.org/wiki/Gravitational_constant)
+- [Lambda-CDM model](https://en.wikipedia.org/wiki/Lambda-CDM_model)
 - [Mass–energy equivalence](https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence)
 - [N-sphere](https://en.wikipedia.org/wiki/N-sphere)
+- [Pair production](https://en.wikipedia.org/wiki/Pair_production)
 - [Quaternion](https://en.wikipedia.org/wiki/Quaternion)
 - [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius)
 - [Spacetime](https://en.wikipedia.org/wiki/Spacetime)
+- [Special relativity](https://en.wikipedia.org/wiki/Special_relativity)
 - [Time](https://en.wikipedia.org/wiki/Time)
+- [Wick rotation](https://en.wikipedia.org/wiki/Wick_rotation)

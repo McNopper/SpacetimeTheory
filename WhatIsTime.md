@@ -65,4 +65,9 @@ Time is not an independent parameter — it is geometrically determined by your 
 
 ## References
 
+- [Gravitational constant](https://en.wikipedia.org/wiki/Gravitational_constant)
+- [N-sphere](https://en.wikipedia.org/wiki/N-sphere)
+- [Quaternion](https://en.wikipedia.org/wiki/Quaternion)
+- [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius)
+- [Speed of light](https://en.wikipedia.org/wiki/Speed_of_light)
 - [Time](https://en.wikipedia.org/wiki/Time)

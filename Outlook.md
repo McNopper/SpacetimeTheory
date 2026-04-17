@@ -98,7 +98,17 @@ These connections are suggestive but unexplored within the present framework.
 
 ## References
 
+- [Baryon acoustic oscillations](https://en.wikipedia.org/wiki/Baryon_acoustic_oscillations)
 - [Cosmic microwave background](https://en.wikipedia.org/wiki/Cosmic_microwave_background)
 - [Friedmann equations](https://en.wikipedia.org/wiki/Friedmann_equations)
+- [General relativity](https://en.wikipedia.org/wiki/General_relativity)
+- [Gravitational wave](https://en.wikipedia.org/wiki/Gravitational_wave)
+- [Hughes–Drever experiment](https://en.wikipedia.org/wiki/Hughes%E2%80%93Drever_experiment)
+- [Kerr metric](https://en.wikipedia.org/wiki/Kerr_metric)
+- [Lambda-CDM model](https://en.wikipedia.org/wiki/Lambda-CDM_model)
 - [Lorentz covariance](https://en.wikipedia.org/wiki/Lorentz_covariance)
+- [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment)
+- [Path integral formulation](https://en.wikipedia.org/wiki/Path_integral_formulation)
+- [Schwarzschild metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)
+- [SU(2)](https://en.wikipedia.org/wiki/Special_unitary_group#n_=_2)
 - [Wick rotation](https://en.wikipedia.org/wiki/Wick_rotation)
