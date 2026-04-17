@@ -104,10 +104,10 @@ which remains quadratic in the angular velocities.
 
 ### Why No Lorentz Factor
 
-In Special Relativity, the Lorentz factor arises from two features of the Minkowski metric:
+In Special Relativity, the Lorentz factor arises from the Minkowski metric:
 
 1. The minus sign in $ds^2 = -c^2 dt^2 + dr^2$
-2. The four-velocity normalization $g_{\mu\nu} u^\mu u^\nu = -c^2$
+2. The resulting four-velocity normalization $g_{\mu\nu} u^\mu u^\nu = -c^2$
 
 Together, these produce $\gamma = 1/\sqrt{1 - v^2/c^2}$ and the energy divergence at $v = c$.
 

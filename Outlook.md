@@ -84,7 +84,7 @@ The current framework describes the global geometry of the universe but does not
 The Euclidean signature connects naturally to several aspects of quantum theory:
 
 - **Wick rotation** — Quantum field theory in Euclidean space is standard practice. The present theory may provide a physical interpretation for what is usually treated as a mathematical trick.
-- **Path integrals** — Euclidean path integrals are better behaved (convergent) than their Lorentzian counterparts. If the Euclidean signature is fundamental, this convergence may be physical rather than technical.
+- **Path integrals** — Euclidean path integrals are generally better behaved (convergent) than their Lorentzian counterparts, though subtleties remain in quantum gravity. If the Euclidean signature is fundamental, this convergence may be physical rather than technical.
 - **Spin and quaternions** — Quaternions naturally describe spin-½ rotations (SU(2) ≅ S³). The fact that the theory's spacetime manifold is S³ — the same space as the SU(2) group manifold — may not be coincidental.
 
 These connections are suggestive but unexplored within the present framework.
