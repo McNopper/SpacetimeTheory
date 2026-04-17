@@ -25,7 +25,7 @@ What remains open is the quantitative machinery. This document collects the key 
 The theory uses a Euclidean signature, yet Lorentz invariance is experimentally confirmed to extraordinary precision. The framework must explain how Lorentz-invariant behavior emerges as an effective phenomenon. Possible directions:
 
 - **Local approximation** — On a sufficiently small patch of S³, the Euclidean metric may reduce to an approximately Minkowski metric, analogous to how the surface of a large sphere appears flat locally
-- **Wick rotation connection** — The Euclidean signature is already used in quantum gravity via Wick rotation ($t \to it$). The relationship between this analytic continuation and the present theory deserves exploration
+- **Wick rotation connection** — The Euclidean signature is already used in quantum gravity via Wick rotation ($t \to it$). The relationship between this analytic continuation and the present theory deserves exploration.
 - **Experimental bounds** — High-precision tests of Lorentz invariance (e.g. Hughes-Drever experiments, Michelson-Morley at extreme precision) could constrain or confirm deviations predicted by a fundamentally Euclidean metric
 
 This is perhaps the most critical open question: any viable theory must reproduce the well-tested predictions of Special Relativity in the appropriate limit.
@@ -49,9 +49,9 @@ A quantitative comparison with ΛCDM requires:
 
 A closed S³ geometry with finite $R_{\max}$ has observable consequences in the cosmic microwave background:
 
-- **Suppressed large-angle correlations** — A finite universe suppresses the lowest multipoles of the CMB power spectrum. The observed anomalously low quadrupole ($\ell = 2$) may be consistent with this prediction
-- **Matched circles** — In a closed topology, the CMB sky could contain pairs of circles with matching temperature patterns. Searches have been conducted but depend on the specific topology assumed
-- **Curvature** — The spatial curvature parameter $\Omega_k$ should be slightly positive (closed geometry). Current Planck data constrain $\Omega_k$ to be very close to zero, which sets a lower bound on $R_{\max}$
+- **Suppressed large-angle correlations** — A finite universe suppresses the lowest multipoles of the CMB power spectrum. The observed anomalously low quadrupole ($\ell = 2$) may be consistent with this prediction.
+- **Matched circles**— In a closed topology, the CMB sky could contain pairs of circles with matching temperature patterns. Searches have been conducted but depend on the specific topology assumed.
+- **Curvature** — The spatial curvature parameter $\Omega_k$ should be slightly negative (closed geometry). Current Planck data constrain $\Omega_k$ to be very close to zero, which sets a lower bound on $R_{\max}$.
 
 Quantifying these predictions requires specifying how the S³ geometry maps onto the observable CMB sky.
 
@@ -76,16 +76,16 @@ The approximate agreement is striking and has been noted in black hole cosmology
 The current framework describes the global geometry of the universe but does not yet address local gravitational phenomena:
 
 - **Gravitational time dilation** — General Relativity predicts that clocks run slower in deeper gravitational wells. How does the geometric time formula $t = \sqrt{R^2 - r^2}/c$ accommodate local curvature from massive objects?
-- **Orbital mechanics** — The Schwarzschild and Kerr solutions of General Relativity describe orbits around massive bodies with high precision. The S³ framework needs an equivalent local description
-- **Gravitational waves** — Detected by LIGO/Virgo, these are perturbations of the Minkowski metric. Their description in a Euclidean-signature framework remains open
+- **Orbital mechanics** — The Schwarzschild and Kerr solutions of General Relativity describe orbits around massive bodies with high precision. The S³ framework needs an equivalent local description.
+- **Gravitational waves** — Detected by LIGO/Virgo, these are perturbations of the Minkowski metric. Their description in a Euclidean-signature framework remains open.
 
 ## Quantum Mechanics Interface
 
 The Euclidean signature connects naturally to several aspects of quantum theory:
 
-- **Wick rotation** — Quantum field theory in Euclidean space is standard practice. The present theory may provide a physical interpretation for what is usually treated as a mathematical trick
-- **Path integrals** — Euclidean path integrals are better behaved (convergent) than their Lorentzian counterparts. If the Euclidean signature is fundamental, this convergence may be physical rather than technical
-- **Spin and quaternions** — Quaternions naturally describe spin-½ rotations (SU(2) ≅ S³). The fact that the theory's spacetime manifold is S³ — the same space as the SU(2) group manifold — may not be coincidental
+- **Wick rotation** — Quantum field theory in Euclidean space is standard practice. The present theory may provide a physical interpretation for what is usually treated as a mathematical trick.
+- **Path integrals** — Euclidean path integrals are better behaved (convergent) than their Lorentzian counterparts. If the Euclidean signature is fundamental, this convergence may be physical rather than technical.
+- **Spin and quaternions** — Quaternions naturally describe spin-½ rotations (SU(2) ≅ S³). The fact that the theory's spacetime manifold is S³ — the same space as the SU(2) group manifold — may not be coincidental.
 
 These connections are suggestive but unexplored within the present framework.
 

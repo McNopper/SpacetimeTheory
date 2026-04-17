@@ -34,7 +34,7 @@ The Euclidean signature removes the Lorentz factor — the mechanism that forbid
 
 ## [Outlook](Outlook.md)
 
-The theory's geometric framework is established, but quantitative development remains: an explanation of how Lorentz invariance emerges effectively from the Euclidean signature, a computed expansion history comparable to ΛCDM, and testable predictions for CMB signatures and the Schwarzschild radius coincidence. See [Outlook](Outlook.md) for the full roadmap.
+The theory's geometric framework is established, but quantitative development remains: an explanation of how Lorentz invariance emerges effectively from the Euclidean signature, a computed expansion history comparable to ΛCDM, and testable predictions for CMB signatures and the Schwarzschild radius coincidence.
 
 ## Conclusion
 

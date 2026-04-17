@@ -94,7 +94,9 @@ where $v_{S^3} = R\omega$ is the arc velocity on S³. This is the Newtonian form
 - No Lorentz factor $\gamma$ appears
 - The conjugate momentum $p_\chi = m_p R^2 \omega$ is linear in $\omega$
 
-For the general case (motion in all three angular directions), the energy is:
+Here $\lambda$ is an affine parameter along the geodesic, not coordinate time — since time is itself a coordinate on S³ rather than an external parameter. The key result — quadratic energy with no divergence — holds regardless of how $v_{S^3}$ is reparameterized in terms of observable quantities.
+
+For the general case(motion in all three angular directions), the energy is:
 
 $$E_{\text{kin}} = \frac{1}{2} m_p R^2 \left[ \dot{\chi}^2 + \sin^2\chi \left( \dot{\theta}^2 + \sin^2\theta \, \dot{\phi}^2 \right) \right]$$
 
