@@ -1,5 +1,7 @@
 # Spacetime Theory
 
+by *Norbert Nopper*
+
 - [Quaternion-Hypersphere Theory](README.md)
 - [What is Time?](WhatIsTime.md)
 - **[Faster Than Light](#faster-than-light-)**
@@ -9,8 +11,6 @@
 ## Faster Than Light 🚀💫
 
 ### *beyond light speed is possible*
-
-by *Norbert Nopper*
 
 ## The Light Speed Barrier in Special Relativity
 

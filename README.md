@@ -1,5 +1,7 @@
 # Spacetime Theory
 
+by *Norbert Nopper*
+
 - **[Quaternion-Hypersphere Theory](#quaternion-hypersphere-theory-of-spacetime)**
 - [What is Time?](WhatIsTime.md)
 - [Faster Than Light](FasterThanLight.md)
@@ -9,8 +11,6 @@
 ## Quaternion-Hypersphere Theory of Spacetime
 
 ![Expansion of the Hypersphere S³](hypersphere_expansion.png)
-
-by *Norbert Nopper*
 
 ## Definition of a Quaternion
 

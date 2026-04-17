@@ -1,5 +1,7 @@
 # Spacetime Theory
 
+by *Norbert Nopper*
+
 - [Quaternion-Hypersphere Theory](README.md)
 - [What is Time?](WhatIsTime.md)
 - [Faster Than Light](FasterThanLight.md)
@@ -7,8 +9,6 @@
 - **[Summary](#summary)**
 
 ## Summary
-
-by *Norbert Nopper*
 
 ## [Quaternion-Hypersphere Theory of Spacetime](README.md)
 

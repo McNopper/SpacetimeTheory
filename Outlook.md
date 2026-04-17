@@ -1,5 +1,7 @@
 # Spacetime Theory
 
+by *Norbert Nopper*
+
 - [Quaternion-Hypersphere Theory](README.md)
 - [What is Time?](WhatIsTime.md)
 - [Faster Than Light](FasterThanLight.md)
@@ -9,8 +11,6 @@
 ## Outlook
 
 ### *Where the theory goes from here*
-
-by *Norbert Nopper*
 
 The Quaternion-Hypersphere Theory of Spacetime provides a geometric framework — quaternion events on S³ with Euclidean signature $(+,+,+,+)$ and $R$ as the Schwarzschild radius of the total mass. Several results follow directly: time as a geometric coordinate, the absence of a light speed barrier, and causal ordering from monotonic $R$ growth.
 

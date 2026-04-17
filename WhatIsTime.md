@@ -1,5 +1,7 @@
 # Spacetime Theory
 
+by *Norbert Nopper*
+
 - [Quaternion-Hypersphere Theory](README.md)
 - **[What is Time?](#what-is-time)**
 - [Faster Than Light](FasterThanLight.md)
@@ -11,8 +13,6 @@
 ### *Time is geometric*
 
 ![Time–Space Constraint on S³](time_space_constraint.png)
-
-by *Norbert Nopper*
 
 Time is defined as:
 
