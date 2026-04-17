@@ -50,7 +50,7 @@ A quantitative comparison with ΛCDM requires:
 A closed S³ geometry with finite $R_{\max}$ has observable consequences in the cosmic microwave background:
 
 - **Suppressed large-angle correlations** — A finite universe suppresses the lowest multipoles of the CMB power spectrum. The observed anomalously low quadrupole ($\ell = 2$) may be consistent with this prediction.
-- **Matched circles**— In a closed topology, the CMB sky could contain pairs of circles with matching temperature patterns. Searches have been conducted but depend on the specific topology assumed.
+- **Matched circles** — In a closed topology, the CMB sky could contain pairs of circles with matching temperature patterns. Searches have been conducted but depend on the specific topology assumed.
 - **Curvature** — The spatial curvature parameter $\Omega_k$ should be slightly negative (closed geometry). Current Planck data constrain $\Omega_k$ to be very close to zero, which sets a lower bound on $R_{\max}$.
 
 Quantifying these predictions requires specifying how the S³ geometry maps onto the observable CMB sky.
