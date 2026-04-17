@@ -1,4 +1,12 @@
-# Quaternion-Hypersphere Theory of Spacetime
+# Spacetime Theory
+
+- **[Quaternion-Hypersphere Theory](#quaternion-hypersphere-theory-of-spacetime)**
+- [What is Time?](WhatIsTime.md)
+- [Faster Than Light](FasterThanLight.md)
+- [Outlook](Outlook.md)
+- [Summary](Summary.md)
+
+## Quaternion-Hypersphere Theory of Spacetime
 
 ![Expansion of the Hypersphere S³](hypersphere_expansion.png)
 
@@ -72,10 +80,6 @@ Several features distinguish this framework from standard ΛCDM cosmology:
 - **Finite maximum radius** — The universe has a definite upper bound $R_{\max} = \frac{2GE_{\text{total}}}{c^4}$, implying a closed spatial geometry. This could leave imprints in the cosmic microwave background (CMB) as suppressed large-angle correlations or matched-circle signatures.
 - **Schwarzschild radius coincidence** — The observable universe's radius should track the Schwarzschild radius of its total mass content. This relationship can be checked against current cosmological data for the observable mass-energy density and Hubble radius.
 
-## Outlook
-
-For the long-term fate of the universe, open questions, and future development of the theory, see [Outlook](Outlook.md).
-
 ## References
 
 - [Cartesian coordinate system](https://en.wikipedia.org/wiki/Cartesian_coordinate_system)
@@ -85,9 +89,3 @@ For the long-term fate of the universe, open questions, and future development o
 - [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius)
 - [Spacetime](https://en.wikipedia.org/wiki/Spacetime)
 - [Time](https://en.wikipedia.org/wiki/Time)
-
-## See Also
-
-- [Summary](Summary.md) — High-level overview of the theory and its implications
-- [What is Time?](WhatIsTime.md) — Time as a geometric coordinate on S³
-- [Faster Than Light](FasterThanLight.md) — Why the Euclidean signature removes the light speed barrier
