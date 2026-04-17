@@ -36,8 +36,8 @@ The theory's geometric framework is established, but quantitative development re
 
 ## Conclusion
 
-Imagine the universe as the surface of a balloon 🎈. As more mass forms, the balloon inflates — that's $R$ growing. Everything that happens takes place on this surface, and there are only two things to spend: time ⏳ and space 🌌. Use more of one, you get less of the other. That's the trade-off.
+Imagine the universe as the surface of a balloon. As more mass forms, the balloon inflates — that's $R$ growing. Everything that happens takes place on this surface, and there are only two things to spend: time and space. Use more of one, you get less of the other. That's the trade-off.
 
-Time isn't some mysterious force ticking away in the background. It's simply what's left of the universe after you subtract where you are. No mass, no balloon, no time 💡.
+Time isn't some mysterious force ticking away in the background. It's simply what's left of the universe after you subtract where you are. No mass, no balloon, no time.
 
-And the speed of light? In Einstein's world, it's an unbreakable wall — you'd need infinite energy to reach it 🧱. In this theory, that wall doesn't exist. The balloon's geometry doesn't care how fast you move across it. So a spaceship faster than light? Not forbidden by the math 🚀💫. But don't pack a return ticket to the past — the balloon only inflates, never deflates. You'll always arrive in the future ⏩.
+And the speed of light? In Einstein's world, it's an unbreakable wall — you'd need infinite energy to reach it. In this theory, that wall doesn't exist. The balloon's geometry doesn't care how fast you move across it. So a spaceship faster than light? Not forbidden by the math. But don't pack a return ticket to the past — the balloon only inflates, never deflates. You'll always arrive in the future.
