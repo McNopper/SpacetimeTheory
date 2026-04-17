@@ -6,9 +6,11 @@ by *Norbert Nopper*
 - [What is Time?](WhatIsTime.md)
 - [Faster Than Light](FasterThanLight.md)
 - [Outlook](Outlook.md)
-- **[Summary](#summary)**
+- **[Summary](#summary-)**
 
-## Summary
+## Summary 📖
+
+### *The theory at a glance*
 
 ## [Quaternion-Hypersphere Theory of Spacetime](README.md)
 

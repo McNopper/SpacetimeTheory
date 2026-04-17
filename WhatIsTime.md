@@ -3,12 +3,12 @@
 by *Norbert Nopper*
 
 - [Quaternion-Hypersphere Theory](README.md)
-- **[What is Time?](#what-is-time)**
+- **[What is Time?](#what-is-time-)**
 - [Faster Than Light](FasterThanLight.md)
 - [Outlook](Outlook.md)
 - [Summary](Summary.md)
 
-## What is Time?
+## What is Time? ⏳
 
 ### *Time is geometric*
 

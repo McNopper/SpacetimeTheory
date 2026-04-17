@@ -10,7 +10,7 @@ by *Norbert Nopper*
 
 ## Faster Than Light 🚀💫
 
-### *beyond light speed is possible*
+### *Beyond light speed is possible*
 
 ## The Light Speed Barrier in Special Relativity
 
@@ -143,10 +143,10 @@ Faster-than-light travel on S³ is a question of propulsion, not of fundamental 
 
 ## References
 
-- [Quaternion-Hypersphere Theory of Spacetime](README.md)
-- [What is Time?](WhatIsTime.md)
-- [Summary](Summary.md)
 - [Outlook](Outlook.md)
+- [Quaternion-Hypersphere Theory of Spacetime](README.md)
+- [Summary](Summary.md)
+- [What is Time?](WhatIsTime.md)
 - [Euler–Lagrange equation](https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation)
 - [Faster-than-light](https://en.wikipedia.org/wiki/Faster-than-light)
 - [Geodesic](https://en.wikipedia.org/wiki/Geodesic)

@@ -5,10 +5,10 @@ by *Norbert Nopper*
 - [Quaternion-Hypersphere Theory](README.md)
 - [What is Time?](WhatIsTime.md)
 - [Faster Than Light](FasterThanLight.md)
-- **[Outlook](#outlook)**
+- **[Outlook](#outlook-)**
 - [Summary](Summary.md)
 
-## Outlook
+## Outlook 🔭
 
 ### *Where the theory goes from here*
 
