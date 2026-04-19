@@ -18,19 +18,19 @@ by *Norbert Nopper*
 
 ## [Quaternion-Hypersphere Theory of Spacetime](README.md)
 
-A spacetime event is a quaternion $q = ct + x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$ on a hypersphere S³ of radius $R$. Time and space share a Euclidean signature $(+,+,+,+)$, and the radius $R$ equals the Schwarzschild radius of the total mass of the universe. The universe expands as energy converts to mass, driving $R$ from zero toward a finite maximum $R_{\max}$.
+A spacetime event is a pair $(R, q)$ where $q = ct + x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$ is a quaternion on a hypersphere $S^3_R$ of radius $R$. Spacetime is foliated by such hyperspheres, with $R$ ranging from zero to a finite maximum $R_{\max}$. Time and space share a Euclidean signature $(+,+,+,+)$, and $R$ equals the Schwarzschild radius of the total mass of the universe. The cosmic epoch $\tau$, which indexes the foliation, grows monotonically as energy converts to mass. See [Foundations](README.md#foundations) for the dynamical law and the distinction between the coordinate $ct$ and the epoch $\tau$.
 
 ## [What is Time?](WhatIsTime.md)
 
-Time is geometric — not absolute (Newton), not relative (Einstein), but a coordinate on S³ constrained by:
+Time is geometric — not absolute (Newton), not relative (Einstein), but an **observer-relative** quantity on $S^3_R$ constrained by:
 
-$$t = \frac{\sqrt{R^2 - r^2}}{c}$$
+$$t_{\mathcal{O}} = \frac{\sqrt{R^2 - r_{\mathcal{O}}^2}}{c}$$
 
-Time and space share a finite budget set by $R$. More spatial distance means less time, and vice versa. Time emerges as mass forms and $R$ grows.
+where $r_{\mathcal{O}}$ is the great-circle arc length from the observer. Time and space share a finite budget set by $R$. More spatial distance means less time, and vice versa. The budget itself grows as mass forms and $R$ grows.
 
 ## [Faster Than Light](FasterThanLight.md)
 
-The Euclidean signature removes the Lorentz factor — the mechanism that forbids faster-than-light travel in Special Relativity. On S³, there is no energy divergence at the speed of light. Causality is preserved not by a speed limit but by the monotonic growth of $R$: you can move faster than light, but only into the future, never the past.
+The Euclidean signature removes the Lorentz factor — the mechanism that forbids faster-than-light travel in Special Relativity. On $S^3_R$ there is no energy divergence at the speed of light. Causality is preserved not by a speed limit but by the monotonic growth of $R$ across the foliation: you can move faster than light on a given leaf, but only forward across leaves, never backward.
 
 ## [Outlook](Outlook.md)
 

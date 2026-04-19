@@ -122,16 +122,28 @@ Neither ingredient of the Lorentz factor exists. The energy is $\frac{1}{2} m_p 
 
 In Special Relativity, light cones separate cause from effect. Faster-than-light signals could reach events outside the light cone, potentially violating causal order.
 
-On S³, causality does not depend on a speed limit. Instead, it emerges from the monotonic growth of $R$:
+On the foliated manifold $\mathcal{M} = \bigcup_R S^3_R$ (see [Foundations](README.md#foundations)), causality does not depend on a speed limit. It is defined by the cosmic epoch $\tau$, which indexes the foliation:
 
-- Every event belongs to an epoch defined by $R$
-- $R$ only grows as energy converts to mass
-- An event at $R_1$ is strictly before an event at $R_2 > R_1$
-- Returning to a smaller $R$ would require mass to convert back to energy, which is cosmologically suppressed
+$$(R_A, q_A) \prec (R_B, q_B) \iff R_A < R_B \iff \tau_A < \tau_B$$
 
-Causal order is preserved by the **direction of the universe's expansion**, not by a local speed limit. A particle can move at any speed on S³ at a given $R$, but it cannot travel backward to an earlier epoch.
+Events sharing the same $R$ (the same leaf $S^3_R$) are causally unrelated — they belong to a single epoch. Events on different leaves are strictly ordered by $\tau$.
+
+- $R$ grows monotonically as energy converts to mass (via the dynamical law $dR/d\tau = c \cdot f(R)$)
+- Returning to a smaller $R$ would require mass to convert back to energy on cosmic scale, which is cosmologically suppressed
+- Causal order is therefore a property of the **foliation**, not of the local metric
+
+A particle can move at any speed on a given $S^3_R$ at a given epoch, but it cannot travel backward to an earlier leaf.
 
 This has a further implication: if $R$ were to shrink (as in a cyclic scenario), causal ordering would break down — events could no longer be strictly ordered by epoch. Since causality is empirically observed, the monotonic growth of $R$ is not merely an assumption but a requirement of the theory. This favors the stable scenario described in the [Quaternion-Hypersphere Theory](README.md), where $R$ asymptotically approaches $R_{\max}$ as energy-to-mass conversion nears completion.
+
+## The Two Roles of $c$
+
+The statement "faster than light is possible" is precise only when two distinct roles of the constant $c$ are separated (see [Foundations](README.md#foundations)):
+
+- $c_{\text{geom}}$ — a **unit conversion factor** appearing in $ct$ so that all four quaternion components share the unit of length. It imposes no kinematic limit.
+- $c_{\text{light}}$ — the **propagation speed of light** on $S^3_R$, an empirical quantity.
+
+Numerically $c_{\text{geom}} = c_{\text{light}}$, but conceptually they differ. The claim of this section is that the S³ geometry imposes no bound $v \leq c_{\text{light}}$ on massive particles: the Lagrangian admits great-circle motion at arbitrary angular velocity $\omega$, and no divergence in energy appears at any speed. Whether a specific propulsion mechanism can realize such speeds is a separate, empirical question.
 
 ## Conclusion
 
