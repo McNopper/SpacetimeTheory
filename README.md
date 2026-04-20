@@ -16,7 +16,7 @@ by *Norbert Nopper*
 
 ## Abstract
 
-This note is a **conceptual synthesis**, not a new dynamical theory. It assembles four ingredients — (i) a quaternionic parameterization of the spatial three-sphere $S^3$, (ii) the closed $k=+1$ branch of Friedmann–Lemaître–Robertson–Walker (FLRW) cosmology, (iii) the Schwarzschild-radius identification $R = 2Gm/c^2$ for the total mass-energy content, and (iv) a relational stance in which cosmic time is defined operationally through matter-built clocks — into a single self-consistent picture. Each ingredient has independent precedent (quaternions on $S^3$: Hamilton; closed FLRW: Friedmann, Lemaître; Schwarzschild-scale cosmology: Pathria, Good, Stuckey, Popławski, Melia; relational time: Mach, Barbour, Rovelli). The combination is offered as a pedagogical and philosophical reframing of standard closed-$\Lambda$CDM, not as a source of new empirical predictions.
+This note is a **conceptual synthesis**, not a new dynamical theory. It assembles four ingredients — (i) a quaternionic parameterization of the spatial three-sphere $S^3$, (ii) the closed $k=+1$ branch of Friedmann–Lemaître–Robertson–Walker (FLRW) cosmology, (iii) the Schwarzschild-radius identification $R \sim 2Gm/c^2$ relating the curvature radius to the total mass-energy content (an order-unity coincidence in any near-critical FLRW cosmology), and (iv) a relational stance in which cosmic time is defined operationally through matter-built clocks — into a single self-consistent picture. Each ingredient has independent precedent (quaternions on $S^3$: Hamilton; closed FLRW: Friedmann, Lemaître; Schwarzschild-scale cosmology: Pathria, Good, Stuckey, Popławski, Melia; relational time: Mach, Barbour, Rovelli). The combination is offered as a pedagogical and philosophical reframing of standard closed-$\Lambda$CDM, not as a source of new empirical predictions.
 
 ## Definition of a Quaternion
 
@@ -44,19 +44,19 @@ The spatial universe is therefore a closed three-sphere $S^3_R$ of positive curv
 
 The constraint $|q| = R$ reduces the four quaternion components to three independent spatial degrees of freedom: a point on $S^3_R$ is specified by three hyperspherical angles $(\chi, \theta, \phi)$, with $\xi = R\cos\chi$ and $r = R\sin\chi$, where $r = \sqrt{x^2 + y^2 + z^2}$.
 
-The quaternion norm $|q| = R$ is the Schwarzschild radius of the total mass $m$ of the universe, directly proportional to the mass-energy:
+The quaternion norm $|q| = R$ is identified, to within order-unity factors in near-critical FLRW, with the Schwarzschild radius of the total mass $m$ of the universe, so that
 
-$$E = \frac{c^4}{2G} R$$
+$$E \sim \frac{c^4}{2G} R$$
 
-where $G$ is the gravitational constant.
+relates the mass-energy content to the curvature radius (with $G$ the gravitational constant). This is an approximate consistency relation inherited from the near-critical-density regime; it is not imposed here as an exact dynamical law.
 
 ## Expansion of the Universe
 
-The curvature radius $R(\tau)$ of the spatial $S^3$ is not a constant: it evolves according to the standard Friedmann equation applied to the closed FLRW metric (see [Foundations](#foundations)). At every cosmic time, the theory imposes the Schwarzschild-radius consistency relation between $R$ and the total mass-energy content,
+The curvature radius $R(\tau)$ of the spatial $S^3$ is not a constant: it evolves according to the standard Friedmann equation applied to the closed FLRW metric (see [Foundations](#foundations)). In a near-critical FLRW cosmology the curvature radius and the Schwarzschild radius of the total mass-energy content agree to within factors of order unity,
 
-$$R(\tau) = \frac{2G m(\tau)}{c^2},$$
+$$R(\tau) \sim \frac{2G m(\tau)}{c^2},$$
 
-where $m(\tau)$ is the total mass-energy within the spatial slice, expressed in mass units. In near-critical FLRW this relation is satisfied automatically up to factors of order unity; it does not supply an independent dynamical equation for $R$.
+where $m(\tau)$ is the total mass-energy within the spatial slice, expressed in mass units. This is an approximate consistency relation rather than an independent dynamical equation for $R$; it is satisfied automatically whenever the matter density is close to critical.
 
 | State | Description | Hypersphere |
 |-------|-------------|-------------|
@@ -89,7 +89,7 @@ where $ds^2_{S^3_R}$ is the round metric on the spatial three-sphere of radius $
 
 $$ds^2 = -c^2 d\tau^2 + R^2\bigl[\,d\chi^2 + \sin^2\chi\,(d\theta^2 + \sin^2\theta\, d\phi^2)\,\bigr]$$
 
-This is exactly the **closed ($k = +1$) Friedmann–Lemaître–Robertson–Walker** metric, with the extra identifications $R(\tau) = 2Gm(\tau)/c^2$ and the growth law below. Special and General Relativity are recovered in full within this geometry: Lorentz invariance holds locally on any sufficiently small patch, time dilation and length contraction follow from the Minkowski tangent-space structure, and light cones exist at every event.
+This is exactly the **closed ($k = +1$) Friedmann–Lemaître–Robertson–Walker** metric, supplemented by the order-unity consistency relation $R(\tau) \sim 2Gm(\tau)/c^2$ and the growth law below. Special and General Relativity are recovered in full within this geometry: Lorentz invariance holds locally on any sufficiently small patch, time dilation and length contraction follow from the Minkowski tangent-space structure, and light cones exist at every event.
 
 ### Comoving map
 
@@ -116,7 +116,7 @@ This is **closed ΛCDM**: the geometric core of the synthesis (the $S^3$ spatial
 Under this replacement, the distinctive claims of the theory are:
 
 1. **Closed spatial topology $S^3$**, naturally parameterized by unit quaternions. The closed ($k=+1$) FLRW branch is a *choice* within standard GR; most modern fits (Pantheon+ alone, Planck + BAO) are consistent with $\Omega_k$ small but not manifestly zero, and the theory predicts $\Omega_k < 0$ strictly.
-2. **Schwarzschild-radius identification** $R(\tau) = 2Gm(\tau)/c^2$ as a consistency condition between the total mass-energy content and the curvature radius. This is a numerological coincidence in any near-critical FLRW model; whether it has independent dynamical content is an open question.
+2. **Schwarzschild-radius identification** $R(\tau) \sim 2Gm(\tau)/c^2$ as a suggestive numerical coincidence between the total mass-energy content and the curvature radius, holding to within factors of order unity in any near-critical FLRW cosmology. It is not claimed here to be an exact dynamical law; whether it can be promoted to one is an open question.
 3. **Arrow of time from monotonic expansion.** Cosmic time $\tau$ is distinguished by the monotonic growth of $R(\tau)$ (Friedmann solutions with $\Lambda > 0$ and $\Omega_m < 1$ are monotonic to the future).
 4. **A definition of time tied to the existence of matter.** Local clocks are physical systems built from matter; in the pre-matter limit there is nothing to register a duration, and cosmic $\tau$ becomes operationally void. This is a philosophical stance, not an additional dynamical equation.
 

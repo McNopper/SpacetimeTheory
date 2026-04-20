@@ -18,7 +18,7 @@ by *Norbert Nopper*
 
 ## [Quaternion-Hypersphere Theory of Spacetime](README.md)
 
-Spacetime is foliated as $\mathcal{M} = \mathbb{R}_\tau \times S^3_{R(\tau)}$. Each spatial slice is a closed three-sphere of radius $R(\tau)$, parameterized by a unit quaternion $q = \xi + x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$ with $|q| = R$. All four quaternion components are **spatial**. Cosmic time $\tau$ is a separate Lorentzian coordinate with metric $ds^2 = -c^2\, d\tau^2 + ds^2_{S^3_R}$, so Special and General Relativity are built in. The curvature radius is identified with the Schwarzschild radius of the total mass of the universe, $R = 2Gm/c^2$, and its evolution is governed by the **standard Friedmann equation** applied to this closed ($k=+1$) FLRW metric — i.e. closed-$\Lambda$CDM dynamics on top of an explicitly quaternion-parameterized $S^3$.
+Spacetime is foliated as $\mathcal{M} = \mathbb{R}_\tau \times S^3_{R(\tau)}$. Each spatial slice is a closed three-sphere of radius $R(\tau)$, parameterized by a unit quaternion $q = \xi + x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$ with $|q| = R$. All four quaternion components are **spatial**. Cosmic time $\tau$ is a separate Lorentzian coordinate with metric $ds^2 = -c^2\, d\tau^2 + ds^2_{S^3_R}$, so Special and General Relativity are built in. The curvature radius is related to the Schwarzschild radius of the total mass of the universe by $R \sim 2Gm/c^2$ (an approximate consistency relation that holds to within order-unity factors in any near-critical FLRW cosmology), and its evolution is governed by the **standard Friedmann equation** applied to this closed ($k=+1$) FLRW metric — i.e. closed-$\Lambda$CDM dynamics on top of an explicitly quaternion-parameterized $S^3$.
 
 ## [What is Time?](WhatIsTime.md)
 
@@ -30,7 +30,7 @@ The speed of light is a fundamental limit. The Lorentzian metric $ds^2 = -c^2\, 
 
 ## [Outlook](Outlook.md)
 
-The geometric framework and the dynamical law are in place: the geometry is a quaternion-parameterized closed $S^3$, and the dynamics is the standard Friedmann equation on that geometry. What remains is empirical confrontation: a quantitative test of the predicted *sign* of spatial curvature ($\Omega_k < 0$) against CMB + BAO bounds, a search for matched-circle or low-$\ell$ signatures in the CMB consistent with a closed antipode, and a direct check of the Schwarzschild-radius consistency relation $R_0 = 2Gm_{\text{tot}}/c^2$ against observed mass-energy densities.
+The geometric framework and the dynamical law are in place: the geometry is a quaternion-parameterized closed $S^3$, and the dynamics is the standard Friedmann equation on that geometry. What remains is empirical confrontation: a quantitative test of the predicted *sign* of spatial curvature ($\Omega_k < 0$) against CMB + BAO bounds, a search for matched-circle or low-$\ell$ signatures in the CMB consistent with a closed antipode, and a direct check of the Schwarzschild-radius consistency relation $R_0 \sim 2Gm_{\text{tot}}/c^2$ against observed mass-energy densities.
 
 ## Conclusion
 

@@ -14,7 +14,7 @@ by *Norbert Nopper*
 
 ### *Where the theory goes from here*
 
-The Quaternion-Hypersphere picture is a **conceptual synthesis** of four standard ingredients — quaternionic parameterization of the spatial $S^3$, closed ($k=+1$) FLRW geometry, the Schwarzschild-radius identification $R = 2Gm/c^2$ (Pathria 1972; Good 1972; Stuckey 1994), and a relational definition of cosmic time (Mach; Barbour; Rovelli). The cosmological dynamics is the standard Friedmann equation applied to the closed FLRW metric (see [Foundations](README.md#foundations)).
+The Quaternion-Hypersphere picture is a **conceptual synthesis** of four standard ingredients — quaternionic parameterization of the spatial $S^3$, closed ($k=+1$) FLRW geometry, the Schwarzschild-radius identification $R \sim 2Gm/c^2$ (Pathria 1972; Good 1972; Stuckey 1994) as an order-unity consistency relation, and a relational definition of cosmic time (Mach; Barbour; Rovelli). The cosmological dynamics is the standard Friedmann equation applied to the closed FLRW metric (see [Foundations](README.md#foundations)).
 
 Because the signature is Lorentzian, Special and General Relativity are built in — Lorentz invariance, time dilation, light cones, and the $c$-limit are not open questions. Because the dynamics is closed-$\Lambda$CDM, no prediction is distinguishable from the standard closed-$\Lambda$CDM baseline. Empirical questions therefore concern *consistency*, not novel prediction: whether the choice of closed geometry ($\Omega_k < 0$) remains viable, whether the Schwarzschild-radius identification continues to hold to within the precision of inferred total mass-energy, and whether any signature of finite closed topology is detected in the CMB.
 
@@ -48,9 +48,9 @@ A closed $S^3$ geometry with finite $R_0$ has observable consequences in the cos
 
 ## Schwarzschild-Radius Consistency
 
-The theory identifies $R_0$ with the Schwarzschild radius of the total mass-energy:
+The synthesis relates $R_0$ to the Schwarzschild radius of the total mass-energy:
 
-$$R_0 = \frac{2G m_{\text{tot}}}{c^2}.$$
+$$R_0 \sim \frac{2G m_{\text{tot}}}{c^2}.$$
 
 This relation is automatically satisfied to within order-unity factors in any near-critical FLRW cosmology (where the density is close to critical, $\rho_{\text{crit}} = 3H_0^2/8\pi G$, and the curvature radius is close to the Hubble radius $c/H_0$). A sharper test requires:
 
@@ -69,7 +69,7 @@ Local gravity is standard General Relativity on the $S^3_R$ background. Solar-sy
 | Spatial curvature | $\Omega_k < 0$ strictly | Planck + BAO |
 | Expansion history | Closed-FLRW $\Lambda$CDM $H(z)$ | SN Ia (Pantheon+), BAO |
 | CMB topology | Matched circles, low-$\ell$ suppression | Planck |
-| Schwarzschild consistency | $R_0 = 2Gm_{\text{tot}}/c^2$ | Inferred $m_{\text{tot}}$, $\Omega_k$ |
+| Schwarzschild consistency | $R_0 \sim 2Gm_{\text{tot}}/c^2$ | Inferred $m_{\text{tot}}$, $\Omega_k$ |
 | Local gravity | Standard GR on $S^3_R$ | Solar-system, LIGO/Virgo, EHT, pulsar timing |
 
 ## References

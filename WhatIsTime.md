@@ -32,7 +32,7 @@ $$ds^2 = -c^2\, d\tau^2 + ds^2_{S^3_R}$$
 
 so Special and General Relativity hold in full. See [Foundations](README.md#foundations).
 
-## Two kinds of time
+## Three quantities often called "time"
 
 It is useful to distinguish three quantities that have historically been lumped together as "time":
 
@@ -48,9 +48,9 @@ $$\xi^2 + r^2 = R^2$$
 
 This is the Pythagorean relation on the 4D embedding space, not a time–space trade-off. Both $\xi$ and $r$ are spatial lengths; they together locate a point on $S^3_R$ but they do not constrain how much time has passed.
 
-Since $R = \frac{2Gm}{c^2}$, the spatial scale grows as mass forms:
+Since $R \sim \frac{2Gm}{c^2}$ to within factors of order unity in near-critical FLRW, the spatial scale grows roughly as the total mass-energy grows:
 
-$$\xi^2 + r^2 = \left(\frac{2Gm}{c^2}\right)^2$$
+$$\xi^2 + r^2 \sim \left(\frac{2Gm}{c^2}\right)^2$$
 
 More mass means a larger spatial sphere — and more room.
 
