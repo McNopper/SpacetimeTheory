@@ -22,7 +22,7 @@ Spacetime is foliated as $\mathcal{M} = \mathbb{R}_\tau \times S^3_{R(\tau)}$. E
 
 ## [What is Time?](WhatIsTime.md)
 
-Time is the **foliation parameter** $\tau$ — it labels which spatial sphere we are on. Proper time along a worldline follows the standard Lorentzian rule $d\tau_{\text{proper}} = d\tau\sqrt{1 - v^2/c^2}$, reproducing ordinary relativistic time dilation. The fourth quaternion component $\xi = R\cos\chi$ is a *spatial* embedding coordinate, not time. Time is "geometric" in the cosmological sense: without mass there is no spatial sphere, $R(0) = 0$, and nothing to extend in — time emerges together with the material universe.
+Time is the **foliation parameter** $\tau$ — it labels which spatial sphere we are on. Proper time along a worldline follows the standard Lorentzian rule $d\tau_{\text{proper}} = d\tau\sqrt{1 - v^2/c^2}$, reproducing ordinary relativistic time dilation. The fourth quaternion component $\xi = R\cos\chi$ is a *spatial* embedding coordinate, not time. The *operational* content of cosmic time requires matter-built clocks: at the initial singularity ($R \to 0$) density diverges and no stable matter structures exist to register duration, so the temporal axis is mathematically well-defined but operationally void until the universe cools and expands enough for clocks to be built.
 
 ## [Faster Than Light](FasterThanLight.md)
 
