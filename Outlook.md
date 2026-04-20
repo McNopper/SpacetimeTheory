@@ -38,8 +38,6 @@ A direct fit of the closed-FLRW $\Lambda$CDM distance–redshift predictions to 
 
 Pantheon+ alone does not distinguish between flat and slightly-closed FLRW; this is a consistency check satisfied, not an independent test. The discriminating power on $\Omega_k$ comes from the CMB and BAO.
 
-> **Historical note.** An earlier version of the theory proposed a first-order conversion-kinetic law $dR/d\tau = c(1 - R/R_{\max})$ in place of the Friedmann equation. The same Pantheon+ fit yields $\chi^2 = 918.1$, a $\Delta\chi^2 \approx +237$ excess over flat $\Lambda$CDM (roughly $15\sigma$). That law is therefore empirically excluded and has been replaced by the Friedmann equation above.
-
 ## CMB Signatures of Finite Geometry
 
 A closed $S^3$ geometry with finite $R_0$ has observable consequences in the cosmic microwave background:

@@ -68,7 +68,7 @@ For an observer moving with spatial velocity $\vec{v}$ on $S^3_R$ (arc speed $v 
 
 $$\frac{d\tau_{\text{proper}}}{d\tau} = \sqrt{1 - \frac{v^2}{c^2}}$$
 
-This is the ordinary Lorentz factor. At $v \to c$ the factor vanishes — time dilation is infinite, the classical light-speed barrier. Time is thus not observer-relative in the S³ sense of an earlier version of this theory; it is observer-relative in the standard Special-Relativistic sense.
+This is the ordinary Lorentz factor. At $v \to c$ the factor vanishes — time dilation is infinite, the classical light-speed barrier. Time is observer-relative in the standard Special-Relativistic sense.
 
 ## Why time emerges with matter
 

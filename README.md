@@ -16,7 +16,7 @@ by *Norbert Nopper*
 
 ## Abstract
 
-This note is a **conceptual synthesis**, not a new dynamical theory. It assembles four ingredients — (i) a quaternionic parameterization of the spatial three-sphere $S^3$, (ii) the closed $k=+1$ branch of Friedmann–Lemaître–Robertson–Walker (FLRW) cosmology, (iii) the Schwarzschild-radius identification $R = 2Gm/c^2$ for the total mass-energy content, and (iv) a relational stance in which cosmic time is defined operationally through matter-built clocks — into a single self-consistent picture. Each ingredient has independent precedent (quaternions on $S^3$: Hamilton; closed FLRW: Friedmann, Lemaître; Schwarzschild-scale cosmology: Pathria, Good, Stuckey, Popławski, Melia; relational time: Mach, Barbour, Rovelli). The combination is offered as a pedagogical and philosophical reframing of standard closed-$\Lambda$CDM, not as a source of new empirical predictions. An earlier version of this note proposed a first-order "conversion-kinetic" dynamical law; that law was found to be excluded by Pantheon+ Type Ia supernova data at roughly $15\sigma$ and is retained here only as a historical footnote, replaced throughout by the standard Friedmann equation.
+This note is a **conceptual synthesis**, not a new dynamical theory. It assembles four ingredients — (i) a quaternionic parameterization of the spatial three-sphere $S^3$, (ii) the closed $k=+1$ branch of Friedmann–Lemaître–Robertson–Walker (FLRW) cosmology, (iii) the Schwarzschild-radius identification $R = 2Gm/c^2$ for the total mass-energy content, and (iv) a relational stance in which cosmic time is defined operationally through matter-built clocks — into a single self-consistent picture. Each ingredient has independent precedent (quaternions on $S^3$: Hamilton; closed FLRW: Friedmann, Lemaître; Schwarzschild-scale cosmology: Pathria, Good, Stuckey, Popławski, Melia; relational time: Mach, Barbour, Rovelli). The combination is offered as a pedagogical and philosophical reframing of standard closed-$\Lambda$CDM, not as a source of new empirical predictions.
 
 ## Definition of a Quaternion
 
@@ -109,9 +109,7 @@ In terms of present-day density parameters $\Omega_m, \Omega_r, \Omega_k \le 0, 
 
 $$H(z)^2 = H_0^2\bigl[\,\Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_k(1+z)^2 + \Omega_\Lambda\,\bigr].$$
 
-This is **closed ΛCDM**: the geometric core of the theory (the $S^3$ spatial slices parameterized by unit quaternions) is retained, while the cosmological dynamics is supplied by the Einstein field equations applied to that geometry.
-
-> **Historical note.** An earlier version of this write-up proposed the first-order "conversion-kinetic" law $dR/d\tau = c(1 - R/R_{\max})$, derived by dimensional analysis from the assumption that energy converts into mass at a rate proportional to the un-converted energy remaining. That law is not a solution of the Einstein equations and predicts a monotonically decelerating expansion, $q(z) = x_0/(1+z-x_0) > 0$. A direct fit to 1580 Pantheon+SH0ES Type Ia supernovae yields $\Delta\chi^2 \approx +237$ versus flat $\Lambda$CDM, rejecting the kinetic law at roughly 15$\sigma$. It is retained here only for historical reference and has been replaced by the Friedmann equation above.
+This is **closed ΛCDM**: the geometric core of the synthesis (the $S^3$ spatial slices parameterized by unit quaternions) is retained, while the cosmological dynamics is supplied by the Einstein field equations applied to that geometry.
 
 ### Why still "quaternion-hypersphere"?
 
@@ -133,7 +131,7 @@ Because the metric is Lorentzian, all standard relativistic results hold:
 
 ### The speed of light is a limit
 
-Within this framework, the speed of light $c$ is a true kinematic limit: no massive particle can reach or exceed it, exactly as in Special Relativity. Faster-than-light travel is **not** a feature of the theory. An earlier attempt to frame $c$ as merely a unit-conversion factor required a Euclidean bulk signature that contradicts observed time dilation; the Lorentzian signature adopted here restores agreement with experiment at the cost of abandoning that possibility. See [Faster Than Light](FasterThanLight.md) for the historical context of this choice.
+Within this framework, the speed of light $c$ is a true kinematic limit: no massive particle can reach or exceed it, exactly as in Special Relativity. Faster-than-light travel is **not** a feature of the theory. See [Faster Than Light](FasterThanLight.md) for why the Lorentzian structure forces this conclusion.
 
 ## Novelty
 

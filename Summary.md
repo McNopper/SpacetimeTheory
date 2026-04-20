@@ -26,7 +26,7 @@ Time is the **foliation parameter** $\tau$ — it labels which spatial sphere we
 
 ## [Faster Than Light](FasterThanLight.md)
 
-The speed of light remains a fundamental limit. An earlier version of this theory used a Euclidean signature to argue that the Lorentz factor vanishes and faster-than-light travel is possible; that claim is retracted because a Euclidean bulk contradicts observed time dilation. The Lorentzian signature adopted here restores $\gamma = 1/\sqrt{1-v^2/c^2}$, the infinite-energy barrier at $v = c$, and ordinary light-cone causality.
+The speed of light is a fundamental limit. The Lorentzian metric $ds^2 = -c^2\, d\tau^2 + ds^2_{S^3_R}$ gives the standard Lorentz factor $\gamma = 1/\sqrt{1-v^2/c^2}$, the infinite-energy barrier at $v = c$, and ordinary light-cone causality.
 
 ## [Outlook](Outlook.md)
 
