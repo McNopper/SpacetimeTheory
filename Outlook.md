@@ -7,14 +7,12 @@ by *Norbert Nopper*
 - [Quaternion-Hypersphere Theory](README.md)
 - [What is Time?](WhatIsTime.md)
 - [Faster Than Light](FasterThanLight.md)
-- **[Outlook](#outlook-)**
+- **[Outlook](#outlook)**
 - [Summary](Summary.md)
 
-## Outlook 🔭
+## Outlook
 
 ### *Where the theory goes from here*
-
-![Open Questions Roadmap](open_questions_roadmap.png)
 
 The Quaternion-Hypersphere Theory of Spacetime is a self-contained geometric framework: a Lorentzian foliation $\mathcal{M} = \mathbb{R}_\tau \times S^3_{R(\tau)}$ with closed FLRW metric $ds^2 = -c^2\, d\tau^2 + ds^2_{S^3_R}$, spatial slices parameterized by unit quaternions, $R$ identified with the Schwarzschild radius of the total mass of the universe, and the explicit growth law $dR/d\tau = c(1 - R/R_{\max})$ (see [Foundations](README.md#foundations)).
 

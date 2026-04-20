@@ -6,15 +6,13 @@ by *Norbert Nopper*
 
 - [Quaternion-Hypersphere Theory](README.md)
 - [What is Time?](WhatIsTime.md)
-- **[Faster Than Light](#faster-than-light-)**
+- **[Faster Than Light](#faster-than-light)**
 - [Outlook](Outlook.md)
 - [Summary](Summary.md)
 
-## Faster Than Light 🚀💫
+## Faster Than Light
 
 ### *Retraction: the speed of light is a fundamental limit*
-
-![Energy–Velocity Comparison](energy_velocity_comparison.png)
 
 > **Note.** An earlier version of this theory argued that the Euclidean signature $(+,+,+,+)$ on the hypersphere removes the Lorentz factor and therefore permits faster-than-light travel. That claim is **retracted**. The adopted framework uses a Lorentzian signature (see [Foundations](README.md#foundations)); Special Relativity is built into the theory, and $c$ is a true kinematic limit. This page explains why the earlier argument fails and why the limit is unavoidable.
 

@@ -5,16 +5,14 @@
 by *Norbert Nopper*
 
 - [Quaternion-Hypersphere Theory](README.md)
-- **[What is Time?](#what-is-time-)**
+- **[What is Time?](#what-is-time)**
 - [Faster Than Light](FasterThanLight.md)
 - [Outlook](Outlook.md)
 - [Summary](Summary.md)
 
-## What is Time? ⏳
+## What is Time?
 
 ### *Time is the foliation parameter*
-
-![Time–Space Constraint on S³](time_space_constraint.png)
 
 In this framework, time is the **cosmic parameter** $\tau$ that indexes the foliation of spacetime:
 

@@ -4,17 +4,15 @@
 
 by *Norbert Nopper*
 
-- **[Quaternion-Hypersphere Theory](#quaternion-hypersphere-theory-of-spacetime-)**
+- **[Quaternion-Hypersphere Theory](#quaternion-hypersphere-theory-of-spacetime)**
 - [What is Time?](WhatIsTime.md)
 - [Faster Than Light](FasterThanLight.md)
 - [Outlook](Outlook.md)
 - [Summary](Summary.md)
 
-## Quaternion-Hypersphere Theory of Spacetime 🌌
+## Quaternion-Hypersphere Theory of Spacetime
 
 ### *Spacetime is energy*
-
-![Expansion of the Hypersphere S³](hypersphere_expansion.png)
 
 ## Definition of a Quaternion
 
@@ -169,4 +167,3 @@ Several features distinguish this framework from standard ΛCDM cosmology:
 - [Spacetime](https://en.wikipedia.org/wiki/Spacetime)
 - [Special relativity](https://en.wikipedia.org/wiki/Special_relativity)
 - [Time](https://en.wikipedia.org/wiki/Time)
-- [Wick rotation](https://en.wikipedia.org/wiki/Wick_rotation)
