@@ -12,7 +12,9 @@ by *Norbert Nopper*
 
 ## Summary
 
-### *The theory at a glance*
+### *A conceptual synthesis at a glance*
+
+**Nature of this note.** What follows is a *conceptual synthesis* of four standard ingredients — quaternions on $S^3$ (Hamilton), closed FLRW cosmology (Friedmann, Lemaître), the Schwarzschild-radius identification of cosmic scale (Pathria 1972; Good 1972; Stuckey 1994), and a relational conception of time (Mach; Barbour; Rovelli). The note is not a new dynamical theory and it does not derive any prediction distinct from standard closed-$\Lambda$CDM.
 
 ## [Quaternion-Hypersphere Theory of Spacetime](README.md)
 

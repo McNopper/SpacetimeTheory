@@ -14,27 +14,27 @@ by *Norbert Nopper*
 
 ### *Where the theory goes from here*
 
-The Quaternion-Hypersphere Theory of Spacetime is a self-contained geometric framework: a Lorentzian foliation $\mathcal{M} = \mathbb{R}_\tau \times S^3_{R(\tau)}$ with closed ($k=+1$) FLRW metric $ds^2 = -c^2\, d\tau^2 + ds^2_{S^3_R}$, spatial slices parameterized by unit quaternions, $R$ identified with the Schwarzschild radius of the total mass of the universe, and expansion dynamics governed by the standard Friedmann equation applied to this geometry (see [Foundations](README.md#foundations)).
+The Quaternion-Hypersphere picture is a **conceptual synthesis** of four standard ingredients — quaternionic parameterization of the spatial $S^3$, closed ($k=+1$) FLRW geometry, the Schwarzschild-radius identification $R = 2Gm/c^2$ (Pathria 1972; Good 1972; Stuckey 1994), and a relational definition of cosmic time (Mach; Barbour; Rovelli). The cosmological dynamics is the standard Friedmann equation applied to the closed FLRW metric (see [Foundations](README.md#foundations)).
 
-Because the signature is Lorentzian, Special and General Relativity are built in — Lorentz invariance, time dilation, light cones, and the $c$-limit are not open questions. Because the cosmological dynamics is standard $\Lambda$CDM on a closed $S^3$, the expansion history fits Type Ia supernovae at the same level as flat $\Lambda$CDM. What remains open is **empirical**: whether the theory's distinctive claims — strictly closed spatial geometry ($\Omega_k < 0$), the Schwarzschild-radius consistency $R(\tau) = 2Gm(\tau)/c^2$, and observable consequences of finite closed topology — are borne out by data.
+Because the signature is Lorentzian, Special and General Relativity are built in — Lorentz invariance, time dilation, light cones, and the $c$-limit are not open questions. Because the dynamics is closed-$\Lambda$CDM, no prediction is distinguishable from the standard closed-$\Lambda$CDM baseline. Empirical questions therefore concern *consistency*, not novel prediction: whether the choice of closed geometry ($\Omega_k < 0$) remains viable, whether the Schwarzschild-radius identification continues to hold to within the precision of inferred total mass-energy, and whether any signature of finite closed topology is detected in the CMB.
 
 ## Spatial Curvature: $\Omega_k < 0$?
 
-The theory predicts $k = +1$ strictly. Current constraints:
+The synthesis privileges $k = +1$ (strictly $\Omega_k < 0$) as a choice within standard GR. Current observational status:
 
 - Planck 2018 temperature + polarization alone: $\Omega_k = -0.044^{+0.018}_{-0.015}$ (mild preference for closed, driven by the lensing amplitude).
 - Planck 2018 + BAO: $\Omega_k = 0.0007 \pm 0.0019$ (consistent with flat).
 
-A future CMB + large-scale-structure measurement that resolves this tension in favour of $\Omega_k < 0$ at high significance would support the theory; one that establishes $\Omega_k > 0$ would falsify it.
+A future CMB + large-scale-structure measurement resolving this tension in favour of $\Omega_k < 0$ at high significance would be consistent with the $k=+1$ choice; one establishing $\Omega_k > 0$ would falsify it. Either outcome is a test of closed FLRW within GR, not a test of something specific to this synthesis.
 
 ## Supernova Hubble Diagram
 
-A direct fit of the closed-FLRW $\Lambda$CDM predictions of this theory to 1580 Pantheon+SH0ES Type Ia supernovae (with diagonal errors) yields
+A direct fit of the closed-FLRW $\Lambda$CDM distance–redshift predictions to 1580 Pantheon+SH0ES Type Ia supernovae (with diagonal errors) yields
 
 | Model | Free parameters | $\chi^2$ | $\chi^2/\mathrm{dof}$ | Best fit |
 |---|---|---|---|---|
 | flat $\Lambda$CDM (reference) | $H_0, \Omega_m$ | 681.3 | 0.432 | $H_0 = 73.0$, $\Omega_m = 0.349$ |
-| QH-Friedmann, closed | $H_0, \Omega_m, \Omega_k$ | 681.3 | 0.432 | $H_0 = 73.0$, $\Omega_m = 0.349$, $\Omega_k \to 0$ |
+| closed-FLRW $\Lambda$CDM | $H_0, \Omega_m, \Omega_k$ | 681.3 | 0.432 | $H_0 = 73.0$, $\Omega_m = 0.349$, $\Omega_k \to 0$ |
 
 Pantheon+ alone does not distinguish between flat and slightly-closed FLRW; this is a consistency check satisfied, not an independent test. The discriminating power on $\Omega_k$ comes from the CMB and BAO.
 

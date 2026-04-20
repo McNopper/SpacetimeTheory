@@ -70,11 +70,28 @@ $$\frac{d\tau_{\text{proper}}}{d\tau} = \sqrt{1 - \frac{v^2}{c^2}}$$
 
 This is the ordinary Lorentz factor. At $v \to c$ the factor vanishes — time dilation is infinite, the classical light-speed barrier. Time is thus not observer-relative in the S³ sense of an earlier version of this theory; it is observer-relative in the standard Special-Relativistic sense.
 
-## Why time emerges with mass
+## Why time emerges with matter
 
-At $\tau = 0$ no mass has formed, so $R(0) = 0$: the spatial universe is a point, and there is no room for anything to happen. As $\tau$ advances the universe expands according to the Friedmann equation, the radius $R(\tau)$ grows, space opens up, and cosmic time $\tau$ accumulates. In this sense time *emerges* together with a nontrivial spatial universe: the existence of a meaningful temporal axis presupposes matter — physical clocks are built from matter — and a nontrivial spatial universe for those clocks to reside in. The philosophical content is the operational coupling of time to matter; the dynamical content is standard FLRW cosmology.
+At $\tau = 0$ no mass has formed, so $R(0) = 0$: the spatial universe is a point, and there is no room for anything to happen. As $\tau$ advances the universe expands according to the Friedmann equation, the radius $R(\tau)$ grows, space opens up, and cosmic time $\tau$ accumulates. In this sense time *emerges* together with a nontrivial spatial universe: the existence of a meaningful temporal axis presupposes matter — physical clocks are built from matter — and a nontrivial spatial universe for those clocks to reside in.
+
+This is a **relational** rather than an absolute conception of time, and it stands in a well-known tradition:
+
+- **Mach's principle** and the **Leibniz–Clarke correspondence** (1715–16) argue that duration, like position, is meaningful only relative to physical contents.
+- **Barbour** (*The End of Time*, 1999) pushes this to its limit: on his view there is no fundamental time parameter at all, only correlations between configurations of matter.
+- **Rovelli**'s relational and thermal-time programme (e.g. *Forget time*, 2009) reconstructs the "flow of time" as a thermodynamic property of the local observer rather than a background feature of spacetime.
+
+The stance adopted here is more conservative than either Barbour's or Rovelli's: the cosmic foliation parameter $\tau$ is retained as a mathematical label, but its *operational* meaning requires matter-built clocks. In the pre-matter limit ($R \to 0$) there is no physical realization of a clock and therefore no operationally defined duration; cosmic $\tau$ becomes mathematically well-defined but operationally void. The philosophical content is the operational coupling of time to matter; the dynamical content is standard FLRW cosmology.
 
 ## References
+
+### Scientific and philosophical literature
+
+- Barbour, J. (1999). *The End of Time: The Next Revolution in Physics*. Oxford University Press.
+- Leibniz, G. W. & Clarke, S. (1715–16). *The Leibniz–Clarke Correspondence*.
+- Mach, E. (1883). *Die Mechanik in ihrer Entwicklung*.
+- Rovelli, C. (2011). "Forget time". *Foundations of Physics* 41, 1475.
+
+### Background references
 
 - [Friedmann–Lemaître–Robertson–Walker metric](https://en.wikipedia.org/wiki/Friedmann%E2%80%93Lema%C3%AEtre%E2%80%93Robertson%E2%80%93Walker_metric)
 - [Gravitational constant](https://en.wikipedia.org/wiki/Gravitational_constant)
