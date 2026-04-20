@@ -48,20 +48,20 @@ where $G$ is the gravitational constant.
 
 ## Expansion of the Universe
 
-When energy materializes into massive particles (e.g. pair production), the total mass $m$ increases and the radius $R$ of the hypersphere grows — the universe expands. Thus $R$ is not a constant but a function of the total mass formed:
+The curvature radius $R(\tau)$ of the spatial $S^3$ is not a constant: it evolves according to the standard Friedmann equation applied to the closed FLRW metric (see [Foundations](#foundations)). At every cosmic time, the theory imposes the Schwarzschild-radius consistency relation between $R$ and the total mass-energy content,
 
-$$R = \frac{2Gm}{c^2}$$
+$$R(\tau) = \frac{2G m(\tau)}{c^2},$$
 
-Here $E$ and $R$ track the **mass-energy** component only. At the singularity, no mass has yet formed ($m = 0$, $R = 0$), while energy exists in non-mass form (e.g. radiation). As radiation converts to mass, $m$ grows, $R$ grows, and total energy (mass-energy + radiation) is conserved throughout.
+where $m(\tau)$ is the total mass-energy within the spatial slice, expressed in mass units. In near-critical FLRW this relation is satisfied automatically up to factors of order unity; it does not supply an independent dynamical equation for $R$.
 
 | State | Description | Hypersphere |
 |-------|-------------|-------------|
-| Singularity | No mass formed ($m = 0$) | $R = 0$ |
-| Big Bang | Mass-energy content of the universe set | $R$ starts growing |
-| Present | Ongoing FLRW expansion | $R$ is large, close to the Hubble radius |
+| Singularity | No matter yet | $R = 0$ |
+| Big Bang | Matter and radiation era begins | $R$ starts growing |
+| Present | Matter + $\Lambda$-dominated FLRW expansion | $R$ close to the Hubble radius |
 | Future | Late-time de Sitter attractor | $R$ grows without bound |
 
-Cosmic expansion is governed by the standard Friedmann equation on the closed $S^3$ spatial geometry (matter + cosmological constant); see [Foundations](#foundations).
+Cosmic expansion is governed by the standard Friedmann equation on the closed $S^3$ spatial geometry (matter, radiation, and cosmological constant); see [Foundations](#foundations).
 
 ## Foundations
 
