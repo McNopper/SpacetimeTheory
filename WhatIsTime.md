@@ -72,7 +72,7 @@ This is the ordinary Lorentz factor. At $v \to c$ the factor vanishes — time d
 
 ## Why time emerges with matter
 
-At $\tau = 0$ no mass has formed, so $R(0) = 0$: the spatial universe is a point, and there is no room for anything to happen. As $\tau$ advances the universe expands according to the Friedmann equation, the radius $R(\tau)$ grows, space opens up, and cosmic time $\tau$ accumulates. In this sense time *emerges* together with a nontrivial spatial universe: the existence of a meaningful temporal axis presupposes matter — physical clocks are built from matter — and a nontrivial spatial universe for those clocks to reside in.
+At $\tau = 0$ the closed FLRW spatial slice has $R(0) = 0$: the spatial volume is zero and the mass-energy density is formally divergent. No stable matter structures (atoms, molecules, clocks) exist at or near this singular limit; they only come into being later, once the universe has cooled and expanded enough for bound states to form. As $\tau$ advances the universe expands according to the Friedmann equation, the radius $R(\tau)$ grows, stable matter becomes possible, and physical clocks can be built. In this sense the *operational* meaning of time emerges together with stable matter: the existence of a meaningful temporal axis presupposes clocks, and clocks presuppose stable material structures.
 
 This is a **relational** rather than an absolute conception of time, and it stands in a well-known tradition:
 

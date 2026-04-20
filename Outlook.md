@@ -44,7 +44,7 @@ A closed $S^3$ geometry with finite $R_0$ has observable consequences in the cos
 
 - **Suppressed large-angle correlations** — a finite universe suppresses the lowest multipoles of the CMB power spectrum. The observed anomalously low quadrupole ($\ell = 2$) is intriguing but not currently statistically compelling.
 - **Matched circles** — in a closed topology with an antipode within the last-scattering surface, the CMB sky would contain pairs of circles with matching temperature patterns. Searches have been carried out and null; they imply the antipode must lie beyond the last-scattering surface, i.e. $|\Omega_k| \lesssim \text{few} \times 10^{-3}$.
-- **Curvature** — the spatial-curvature parameter $\Omega_k$ should be strictly negative. Current Planck + BAO bounds are consistent with zero, setting a lower bound on $R_0$.
+- **Curvature** — the synthesis adopts $\Omega_k < 0$ (closed $k=+1$) as a modeling choice. Current Planck + BAO bounds are consistent with zero, setting a lower bound on $R_0$ if the closed branch is correct.
 
 ## Schwarzschild-Radius Consistency
 
@@ -64,9 +64,9 @@ Local gravity is standard General Relativity on the $S^3_R$ background. Solar-sy
 
 ## Summary of Empirical Tests
 
-| Area | Predicted quantity | Observational comparison |
-|------|-------------------|-------------------------|
-| Spatial curvature | $\Omega_k < 0$ strictly | Planck + BAO |
+| Area | Quantity | Observational comparison |
+|------|----------|-------------------------|
+| Spatial curvature | $\Omega_k < 0$ (closed branch adopted) | Planck + BAO |
 | Expansion history | Closed-FLRW $\Lambda$CDM $H(z)$ | SN Ia (Pantheon+), BAO |
 | CMB topology | Matched circles, low-$\ell$ suppression | Planck |
 | Schwarzschild consistency | $R_0 \sim 2Gm_{\text{tot}}/c^2$ | Inferred $m_{\text{tot}}$, $\Omega_k$ |

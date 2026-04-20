@@ -60,8 +60,8 @@ where $m(\tau)$ is the total mass-energy within the spatial slice, expressed in 
 
 | State | Description | Hypersphere |
 |-------|-------------|-------------|
-| Singularity | No matter yet | $R = 0$ |
-| Big Bang | Matter and radiation era begins | $R$ starts growing |
+| Initial singularity | Diverging density, zero volume | $R = 0$ |
+| Early universe | Radiation- then matter-dominated FLRW expansion | $R$ grows |
 | Present | Matter + $\Lambda$-dominated FLRW expansion | $R$ close to the Hubble radius |
 | Future | Late-time de Sitter attractor | $R$ grows without bound |
 
@@ -105,17 +105,19 @@ The dynamics of $R(\tau)$ is the standard **Friedmann equation** obtained from t
 
 $$\left(\frac{1}{R}\frac{dR}{d\tau}\right)^{\!2} = \frac{8\pi G}{3}\bigl(\rho_m + \rho_r\bigr) - \frac{c^2}{R^2} + \frac{\Lambda c^2}{3}.$$
 
-In terms of present-day density parameters $\Omega_m, \Omega_r, \Omega_k \le 0, \Omega_\Lambda$ (with $\Omega_m + \Omega_r + \Omega_k + \Omega_\Lambda = 1$ and $\Omega_k = -c^2/(H_0^2 R_0^2)$), the Hubble parameter as a function of redshift $z = R_0/R - 1$ is
+In terms of present-day density parameters $\Omega_m, \Omega_r, \Omega_k, \Omega_\Lambda$ satisfying $\Omega_m + \Omega_r + \Omega_k + \Omega_\Lambda = 1$, with $\Omega_k = -kc^2/(H_0^2 R_0^2)$, the Hubble parameter as a function of redshift $z = R_0/R - 1$ is
 
 $$H(z)^2 = H_0^2\bigl[\,\Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_k(1+z)^2 + \Omega_\Lambda\,\bigr].$$
 
-This is **closed ΛCDM**: the geometric core of the synthesis (the $S^3$ spatial slices parameterized by unit quaternions) is retained, while the cosmological dynamics is supplied by the Einstein field equations applied to that geometry.
+The synthesis adopts the closed branch $k=+1$ (i.e. $\Omega_k < 0$) as a modeling choice.
+
+This is **closed ΛCDM**:the geometric core of the synthesis (the $S^3$ spatial slices parameterized by unit quaternions) is retained, while the cosmological dynamics is supplied by the Einstein field equations applied to that geometry.
 
 ### Why still "quaternion-hypersphere"?
 
-Under this replacement, the distinctive claims of the theory are:
+The distinctive features of this synthesis are:
 
-1. **Closed spatial topology $S^3$**, naturally parameterized by unit quaternions. The closed ($k=+1$) FLRW branch is a *choice* within standard GR; most modern fits (Pantheon+ alone, Planck + BAO) are consistent with $\Omega_k$ small but not manifestly zero, and the theory predicts $\Omega_k < 0$ strictly.
+1. **Closed spatial topology $S^3$**, naturally parameterized by unit quaternions. The closed ($k=+1$) FLRW branch is a *choice* within standard GR; current Planck + BAO data ($\Omega_k = 0.0007 \pm 0.0019$) are consistent with flat or slightly-closed geometry. The synthesis adopts $\Omega_k < 0$ ($k=+1$ closed) as a modeling choice, not a derived prediction.
 2. **Schwarzschild-radius identification** $R(\tau) \sim 2Gm(\tau)/c^2$ as a suggestive numerical coincidence between the total mass-energy content and the curvature radius, holding to within factors of order unity in any near-critical FLRW cosmology. It is not claimed here to be an exact dynamical law; whether it can be promoted to one is an open question.
 3. **Arrow of time from monotonic expansion.** Cosmic time $\tau$ is distinguished by the monotonic growth of $R(\tau)$ (Friedmann solutions with $\Lambda > 0$ and $\Omega_m < 1$ are monotonic to the future).
 4. **A definition of time tied to the existence of matter.** Local clocks are physical systems built from matter; in the pre-matter limit there is nothing to register a duration, and cosmic $\tau$ becomes operationally void. This is a philosophical stance, not an additional dynamical equation.
@@ -148,10 +150,10 @@ What this write-up *contributes* is the **specific combination**: the four ingre
 
 The theory is empirically **closed-$\Lambda$CDM** and therefore shares all of its successes and tensions. It is neither predicted to agree with the data any better nor worse than that baseline. Relevant empirical checkpoints, framed as consistency conditions rather than distinctive predictions:
 
-- **Spatial curvature sign.** The write-up privileges $k=+1$; current Planck + BAO data are consistent with $\Omega_k \lesssim 0$ at $\sim 10^{-3}$ precision. A future definitive detection of $\Omega_k > 0$ would refute the $k=+1$ choice; a definitive detection of $\Omega_k < 0$ would align with it. The closed branch is at present a *choice within* standard GR, not a distinctive prediction.
+- **Spatial curvature sign.** The write-up privileges $k=+1$; current Planck + BAO data give $\Omega_k = 0.0007 \pm 0.0019$, consistent with zero at $\sim 10^{-3}$ precision. A future definitive detection of $\Omega_k > 0$ would refute the $k=+1$ choice; a definitive detection of $\Omega_k < 0$ would align with it. The closed branch is at present a *choice within* standard GR, not a distinctive prediction.
 - **Schwarzschild-radius consistency.** $R_0 \sim 2Gm_{\text{tot}}/c^2$ is satisfied automatically in any near-critical FLRW cosmology to within factors of order unity. It does not currently function as an independent empirical test; promoting it to a dynamical constraint would require additional theoretical work not carried out here.
 - **Supernova Hubble diagram.** Fitting the closed-$\Lambda$CDM predictions of this framework to 1580 Pantheon+SH0ES Type Ia supernovae yields $\chi^2 = 681.3$, indistinguishable from flat $\Lambda$CDM at this data set's precision (see [Outlook](Outlook.md)). Consistency achieved, nothing predicted.
-- **CMB topology.** A closed universe with antipode within the last-scattering sphere would leave matched-circle signatures; null results from WMAP/Planck searches imply the antipode lies beyond the observable horizon, consistent with $|\Omega_k|$ small but nonzero.
+- **CMB topology.** A closed universe with antipode within the last-scattering sphere would leave matched-circle signatures; null results from WMAP/Planck searches imply the antipode lies beyond the observable horizon, consistent with $|\Omega_k|$ small (including zero).
 
 ## References
 
@@ -179,7 +181,6 @@ The theory is empirically **closed-$\Lambda$CDM** and therefore shares all of it
 - [Lambda-CDM model](https://en.wikipedia.org/wiki/Lambda-CDM_model)
 - [Mass–energy equivalence](https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence)
 - [N-sphere](https://en.wikipedia.org/wiki/N-sphere)
-- [Pair production](https://en.wikipedia.org/wiki/Pair_production)
 - [Quaternion](https://en.wikipedia.org/wiki/Quaternion)
 - [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius)
 - [Spacetime](https://en.wikipedia.org/wiki/Spacetime)

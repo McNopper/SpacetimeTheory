@@ -30,7 +30,7 @@ The speed of light is a fundamental limit. The Lorentzian metric $ds^2 = -c^2\, 
 
 ## [Outlook](Outlook.md)
 
-The geometric framework and the dynamical law are in place: the geometry is a quaternion-parameterized closed $S^3$, and the dynamics is the standard Friedmann equation on that geometry. What remains is empirical confrontation: a quantitative test of the predicted *sign* of spatial curvature ($\Omega_k < 0$) against CMB + BAO bounds, a search for matched-circle or low-$\ell$ signatures in the CMB consistent with a closed antipode, and a direct check of the Schwarzschild-radius consistency relation $R_0 \sim 2Gm_{\text{tot}}/c^2$ against observed mass-energy densities.
+The geometric framework and the dynamical law are in place: the geometry is a quaternion-parameterized closed $S^3$, and the dynamics is the standard Friedmann equation on that geometry. What remains is empirical confrontation: a quantitative test of the *adopted* closed-geometry choice ($\Omega_k < 0$) against CMB + BAO bounds, a search for matched-circle or low-$\ell$ signatures in the CMB consistent with a closed antipode, and a direct check of the Schwarzschild-radius consistency relation $R_0 \sim 2Gm_{\text{tot}}/c^2$ against observed mass-energy densities.
 
 ## Conclusion
 
