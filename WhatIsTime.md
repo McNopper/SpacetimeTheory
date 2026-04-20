@@ -12,74 +12,77 @@ by *Norbert Nopper*
 
 ## What is Time? ⏳
 
-### *Time is geometric*
+### *Time is the foliation parameter*
 
 ![Time–Space Constraint on S³](time_space_constraint.png)
 
-For an observer $\mathcal{O}$ at a point $p_{\mathcal{O}} \in S^3_R$, the **time budget** of an event $q \in S^3_R$ is defined as:
+In this framework, time is the **cosmic parameter** $\tau$ that indexes the foliation of spacetime:
 
-$$t_{\mathcal{O}}(q) = \frac{\sqrt{R^2 - r_{\mathcal{O}}^2(q)}}{c}$$
+$$\mathcal{M} = \mathbb{R}_\tau \times S^3_{R(\tau)}$$
 
-where
-
-- $c$ is the speed of light
-- $r_{\mathcal{O}}(q)$ is the **great-circle arc length** from $p_{\mathcal{O}}$ to $q$ on the current hypersphere $S^3_R$
-- $R$ is the radius of the hypersphere $S^3_R$
-
-Time is thus **observer-relative**: different observers on $S^3_R$ assign different $t$ values to the same event, preserving the homogeneity of the hypersphere. This $t$ is a *local, frame-like* quantity distinct from the cosmic epoch $\tau$ (see [Foundations](README.md#foundations)), which orders events across different leaves of the foliation.
+Each slice $S^3_{R(\tau)}$ is a closed three-sphere of radius $R(\tau)$. Time is not a coordinate on the sphere — it labels *which* sphere we are on. As $\tau$ grows, the radius $R(\tau)$ grows, and the universe expands.
 
 ## Premise
 
-Every spacetime event is represented as a quaternion $q = ct + x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$ and lies on a hypersphere S³ of radius $R$:
+A spatial point in the universe is represented as a quaternion $q = \xi + x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$ lying on the spatial three-sphere $S^3_R$:
 
-$$|q| = \sqrt{c^2t^2 + x^2 + y^2 + z^2} = R$$
+$$|q| = \sqrt{\xi^2 + x^2 + y^2 + z^2} = R$$
 
-## Constraint
+The four components are all spatial: $\xi$ is a fourth embedding coordinate in the auxiliary four-dimensional Euclidean space used to realize $S^3_R$. The full spacetime metric is Lorentzian,
 
-On the hypersphere $S^3_R$, every event satisfies, relative to an observer $\mathcal{O}$:
+$$ds^2 = -c^2\, d\tau^2 + ds^2_{S^3_R}$$
 
-$$(ct_{\mathcal{O}})^2 + r_{\mathcal{O}}^2 = R^2$$
+so Special and General Relativity hold in full. See [Foundations](README.md#foundations).
 
-The left side has two parts — a temporal part $(ct_{\mathcal{O}})^2$ and a spatial part $r_{\mathcal{O}}^2$ — and together they must equal the total radius squared $R^2$. This means time and space are not independent: they share a finite budget set by $R$.
+## Two kinds of time
 
-- An event at the observer's own location ($r_{\mathcal{O}} = 0$) has maximum time: $t_{\mathcal{O}} = R/c$
-- An event at maximum spatial distance ($r_{\mathcal{O}} = R$, the antipode) has no time: $t_{\mathcal{O}} = 0$
-- Everything in between is a trade-off
+It is useful to distinguish three quantities that have historically been lumped together as "time":
 
-Because every point on $S^3_R$ is geometrically equivalent, any observer may be taken as origin; the hypersphere itself is homogeneous.
+- $\tau$ — **cosmic time**, the foliation parameter, the clock reading of a comoving observer (one at rest on a fixed angular position $(\chi_0,\theta_0,\phi_0)$ on the sphere).
+- $\tau_{\text{proper}}$ — **proper time** along an arbitrary worldline, given by $d\tau_{\text{proper}}^2 = d\tau^2 - ds_{S^3_R}^2/c^2$. Moving observers accumulate $\tau_{\text{proper}} < \tau$ — the standard Lorentz time dilation.
+- $\xi$ — the fourth **spatial** embedding coordinate of $q$, with $\xi = R\cos\chi$. This is *not* time. It is a geometric label on the spatial sphere.
 
-Since $R = \frac{2Gm}{c^2}$, where $G$ is the gravitational constant and $m$ is the total mass of the universe, this budget grows as mass forms:
+## The spatial constraint
 
-$$(ct_{\mathcal{O}})^2 + r_{\mathcal{O}}^2 = \left(\frac{2Gm}{c^2}\right)^2$$
+The quaternion norm constraint $|q| = R$ is a **spatial** statement: it fixes $q$ on the three-sphere. Decomposing into the embedding coordinate $\xi$ and the Cartesian spatial distance $r = \sqrt{x^2 + y^2 + z^2}$:
 
-More mass means a larger universe — and more room for both time and space.
+$$\xi^2 + r^2 = R^2$$
+
+This is the Pythagorean relation on the 4D embedding space, not a time–space trade-off. Both $\xi$ and $r$ are spatial lengths; they together locate a point on $S^3_R$ but they do not constrain how much time has passed.
+
+Since $R = \frac{2Gm}{c^2}$, the spatial scale grows as mass forms:
+
+$$\xi^2 + r^2 = \left(\frac{2Gm}{c^2}\right)^2$$
+
+More mass means a larger spatial sphere — and more room.
 
 ## Degrees of Freedom
 
-The quaternion constraint $|q| = R$ reduces the four components $(ct, x, y, z)$ to three independent degrees of freedom. A point on $S^3_R$ is specified by three hyperspherical angles $(\chi, \theta, \phi)$ with
+The quaternion constraint $|q| = R$ reduces the four components $(\xi, x, y, z)$ to three independent spatial degrees of freedom. A point on $S^3_R$ is specified by three hyperspherical angles $(\chi, \theta, \phi)$ with
 
-$$ct = R\cos\chi, \qquad r = R\sin\chi$$
+$$\xi = R\cos\chi, \qquad r = R\sin\chi$$
 
-The component $ct$ is therefore a **position coordinate** on $S^3_R$ — a temporal angle — not an independent clock. The observer-relative time budget $t_{\mathcal{O}}$ above is a *derived* quantity; the cosmic epoch $\tau$ (see [Foundations](README.md#foundations)) is the monotonic clock that orders events across leaves.
+All three angles are spatial. The cosmic time $\tau$ is the fourth, independent, Lorentzian coordinate of spacetime.
 
-## Solving for Time
+## Proper time along a worldline
 
-From the constraint, solving for $t_{\mathcal{O}}$:
+For an observer moving with spatial velocity $\vec{v}$ on $S^3_R$ (arc speed $v = |ds_{S^3}/d\tau|$), proper time satisfies
 
-$$c^2 t_{\mathcal{O}}^2 = R^2 - r_{\mathcal{O}}^2$$
+$$\frac{d\tau_{\text{proper}}}{d\tau} = \sqrt{1 - \frac{v^2}{c^2}}$$
 
-$$t_{\mathcal{O}} = \frac{\sqrt{R^2 - r_{\mathcal{O}}^2}}{c}$$
+This is the ordinary Lorentz factor. At $v \to c$ the factor vanishes — time dilation is infinite, the classical light-speed barrier. Time is thus not observer-relative in the S³ sense of an earlier version of this theory; it is observer-relative in the standard Special-Relativistic sense.
 
-Substituting $R = \frac{2Gm}{c^2}$:
+## Why time emerges with mass
 
-$$t_{\mathcal{O}} = \frac{\sqrt{\dfrac{4G^2m^2}{c^4} - r_{\mathcal{O}}^2}}{c}$$
-
-Time is not an independent parameter — it is geometrically determined by the observer's position, the event's position on $S^3_R$, and the total mass of the universe.
+At $\tau = 0$ no mass has formed, so $R(0) = 0$: the spatial universe is a point, and there is no room for anything to happen. As energy converts to mass the radius $R(\tau)$ grows, space opens up, and cosmic time $\tau$ accumulates. In this sense time *emerges* together with mass: the existence of a nontrivial temporal axis requires a nontrivial spatial universe to extend in, and that spatial universe is built by the ongoing conversion $E \to m$.
 
 ## References
 
+- [Friedmann–Lemaître–Robertson–Walker metric](https://en.wikipedia.org/wiki/Friedmann%E2%80%93Lema%C3%AEtre%E2%80%93Robertson%E2%80%93Walker_metric)
 - [Gravitational constant](https://en.wikipedia.org/wiki/Gravitational_constant)
+- [Lorentz factor](https://en.wikipedia.org/wiki/Lorentz_factor)
 - [N-sphere](https://en.wikipedia.org/wiki/N-sphere)
+- [Proper time](https://en.wikipedia.org/wiki/Proper_time)
 - [Quaternion](https://en.wikipedia.org/wiki/Quaternion)
 - [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius)
 - [Speed of light](https://en.wikipedia.org/wiki/Speed_of_light)

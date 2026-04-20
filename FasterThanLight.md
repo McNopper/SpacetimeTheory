@@ -12,9 +12,11 @@ by *Norbert Nopper*
 
 ## Faster Than Light 🚀💫
 
-### *Beyond light speed is possible*
+### *Retraction: the speed of light is a fundamental limit*
 
 ![Energy–Velocity Comparison](energy_velocity_comparison.png)
+
+> **Note.** An earlier version of this theory argued that the Euclidean signature $(+,+,+,+)$ on the hypersphere removes the Lorentz factor and therefore permits faster-than-light travel. That claim is **retracted**. The adopted framework uses a Lorentzian signature (see [Foundations](README.md#foundations)); Special Relativity is built into the theory, and $c$ is a true kinematic limit. This page explains why the earlier argument fails and why the limit is unavoidable.
 
 ## The Light Speed Barrier in Special Relativity
 
@@ -22,131 +24,71 @@ In Einstein's Special Relativity, the Minkowski signature $(-,+,+,+)$ produces t
 
 $$\gamma = \frac{1}{\sqrt{1 - \dfrac{v^2}{c^2}}}$$
 
-where
-
-- $v$ is the velocity of the object
-- $c$ is the speed of light
-- $\gamma$ is the Lorentz factor
-
-As $v \to c$, the Lorentz factor $\gamma \to \infty$. The relativistic energy of a massive object is:
+As $v \to c$, $\gamma \to \infty$ and the relativistic energy
 
 $$E = \gamma m_p c^2$$
 
-where $m_p$ is the mass of the object. This means accelerating a massive object to the speed of light requires infinite energy — an absolute barrier.
+diverges. Accelerating a massive object to the speed of light requires infinite energy — an absolute barrier.
 
-## No Lorentz Factor on S³
+## Why the same barrier applies here
 
-In the Quaternion-Hypersphere Theory, the Euclidean signature $(+,+,+,+)$ replaces the Minkowski signature. The fundamental constraint is:
+This theory adopts the Lorentzian metric (see [Foundations](README.md#foundations))
 
-$$(ct)^2 + r^2 = R^2$$
+$$ds^2 = -c^2\, d\tau^2 + ds^2_{S^3_R}$$
 
-where $r = \sqrt{x^2 + y^2 + z^2}$ is the spatial distance and $R$ is the radius of the hypersphere S³.
+on the foliated manifold $\mathcal{M} = \mathbb{R}_\tau \times S^3_{R(\tau)}$. The four quaternion components $(\xi, x, y, z)$ are all **spatial**; cosmic time $\tau$ is a separate, Lorentzian, coordinate. Along any worldline, proper time satisfies
 
-The minus sign in $(1 - v^2/c^2)$ that produces the Lorentz factor originates from the Minkowski signature. With a Euclidean signature, this term does not arise. There is no $\gamma$, no divergence at $v = c$, and no infinite energy barrier.
+$$d\tau_{\text{proper}}^2 = d\tau^2 - \frac{ds^2_{S^3_R}}{c^2}, \qquad \frac{d\tau_{\text{proper}}}{d\tau} = \sqrt{1 - \frac{v^2}{c^2}}$$
 
-## Dynamics
+with $v = |ds_{S^3}/d\tau|$ the arc speed on the spatial sphere. The Lorentz factor $\gamma$ reappears with all of its standard consequences: infinite energy at $v \to c$, time dilation, length contraction, causal light cones.
 
-On S³, the natural paths of free motion are **geodesics** — great circles on the hypersphere. The geometry of a sphere imposes no maximum angular velocity: a particle can traverse a great circle at any speed. No new speed limit emerges from the curvature of S³ itself.
+## Where the earlier argument broke down
 
-This contrasts with Minkowski spacetime, where the metric signature forces timelike geodesics to remain within light cones. On S³ with Euclidean signature, all directions are equivalent — there is no geometric distinction between "slow" and "fast" paths.
+The earlier argument placed the component $ct$ *inside* the quaternion and used the Euclidean norm $c^2t^2 + x^2 + y^2 + z^2 = R^2$ as a constraint on events. This has two fatal problems:
 
-## Energy
+1. **It contradicts observed time dilation.** A Euclidean 4D metric gives proper time $d\lambda^2 = dt^2 + (1/c^2)\, d\mathbf{x}^2$, i.e. moving clocks would tick *faster*, not slower, than stationary ones. Every particle accelerator and every muon lifetime measurement says the opposite.
+2. **There is no light cone.** Without a distinction between timelike and spacelike directions, the notion of "signal propagation speed" is not well-defined, so neither is the question of whether something "beats" light.
 
-In Special Relativity, the energy of a massive object is:
+The Lorentzian foliation adopted in [Foundations](README.md#foundations) fixes both. The quaternion now describes only the *spatial* geometry (it parameterizes $S^3_R$), and time is the foliation parameter $\tau$ with a genuine minus sign in the metric.
 
-$$E = \gamma m_p c^2 = \frac{m_p c^2}{\sqrt{1 - \dfrac{v^2}{c^2}}}$$
+## Historical Lagrangian derivation (for context only)
 
-where $m_p$ is the mass of the object. This diverges as $v \to c$ — the infinite energy barrier. To derive the corresponding result on S³, we begin from first principles.
+The calculation below reproduces the earlier Euclidean-signature argument. It is kept here to document what the earlier version claimed and why the claim does not survive once Lorentzian signature is imposed. **The following is not the prediction of the current theory.**
 
-### Lagrangian on S³
+*A particle of mass $m_p$ moves on $S^3$ of radius $R$. In the Euclidean setting the induced metric is*
 
-A particle of mass $m_p$ moves on S³ of radius $R$. In hyperspherical coordinates $(\chi, \theta, \phi)$, the spacetime coordinates are:
+$$ds^2 = R^2 \left[ d\chi^2 + \sin^2\chi \left( d\theta^2 + \sin^2\theta\, d\phi^2 \right) \right]$$
 
-$$ct = R\cos\chi, \qquad r = R\sin\chi$$
+*and the free Lagrangian*
 
-where $r$ decomposes further via $\theta$ and $\phi$. The induced metric on S³ is:
+$$\mathcal{L} = \tfrac{1}{2} m_p R^2 \left[ \dot{\chi}^2 + \sin^2\chi \left( \dot{\theta}^2 + \sin^2\theta\, \dot{\phi}^2 \right) \right]$$
 
-$$ds^2 = R^2 \left[ d\chi^2 + \sin^2\chi \left( d\theta^2 + \sin^2\theta \, d\phi^2 \right) \right]$$
+*gives the Newtonian kinetic energy $E_{\text{kin}} = \tfrac{1}{2} m_p R^2 \omega^2$, quadratic in speed, with no divergence at $v = c$. Under **Lorentzian** signature the same setup yields instead the relativistic action, whose worldline energy reproduces $E = \gamma m_p c^2$ and the standard light-speed barrier.*
 
-The Lagrangian for a free particle on this manifold is:
-
-$$\mathcal{L} = \frac{1}{2} m_p \, g_{ab} \, \dot{q}^a \dot{q}^b = \frac{1}{2} m_p R^2 \left[ \dot{\chi}^2 + \sin^2\chi \left( \dot{\theta}^2 + \sin^2\theta \, \dot{\phi}^2 \right) \right]$$
-
-where dots denote derivatives with respect to an affine parameter $\lambda$.
-
-### Equations of Motion
-
-The Euler-Lagrange equation for $\chi$ (with $\dot{\theta} = \dot{\phi} = 0$ for motion along a single great circle) gives:
-
-$$\ddot{\chi} = 0 \quad \Longrightarrow \quad \chi(\lambda) = \chi_0 + \omega\lambda$$
-
-Free particles trace great circles at constant angular velocity $\omega$ — the geodesics of S³.
-
-### Kinetic Energy
-
-The kinetic energy follows directly:
-
-$$E_{\text{kin}} = \frac{1}{2} m_p R^2 \omega^2 = \frac{1}{2} m_p v_{S^3}^2$$
-
-where $v_{S^3} = R\omega$ is the arc velocity on S³. This is the Newtonian form:
-
-- Quadratic growth with speed — no divergence at any velocity
-- No Lorentz factor $\gamma$ appears
-- The conjugate momentum $p_\chi = m_p R^2 \omega$ is linear in $\omega$
-
-Here $\lambda$ is an affine parameter along the geodesic, not coordinate time — since time is itself a coordinate on S³ rather than an external parameter. The key result — quadratic energy with no divergence — holds regardless of how $v_{S^3}$ is reparameterized in terms of observable quantities.
-
-For the general case (motion in all three angular directions), the energy is:
-
-$$E_{\text{kin}} = \frac{1}{2} m_p R^2 \left[ \dot{\chi}^2 + \sin^2\chi \left( \dot{\theta}^2 + \sin^2\theta \, \dot{\phi}^2 \right) \right]$$
-
-which remains quadratic in the angular velocities.
-
-### Why No Lorentz Factor
-
-In Special Relativity, the Lorentz factor arises from the Minkowski metric:
-
-1. The minus sign in $ds^2 = -c^2 dt^2 + dr^2$
-2. The resulting four-velocity normalization $g_{\mu\nu} u^\mu u^\nu = -c^2$
-
-Together, these produce $\gamma = 1/\sqrt{1 - v^2/c^2}$ and the energy divergence at $v = c$.
-
-On S³ with Euclidean signature $(+,+,+,+)$:
-
-1. The metric has all positive terms: $ds^2 = R^2 d\chi^2 + \ldots$
-2. The quantity $g_{ab} u^a u^b = v_{S^3}^2$ is determined by initial conditions, not fixed by a constraint
-
-Neither ingredient of the Lorentz factor exists. The energy is $\frac{1}{2} m_p v_{S^3}^2$ for all speeds, with no barrier at $v_{S^3} = c$ or anywhere else.
+The Euclidean-signature derivation is mathematically correct; it is simply not the geometry the universe realizes.
 
 ## Causality
 
-In Special Relativity, light cones separate cause from effect. Faster-than-light signals could reach events outside the light cone, potentially violating causal order.
+Under Lorentzian signature, causality is the standard one: events are ordered by the light-cone structure of the metric
 
-In this framework, causality is defined by the foliation $\mathcal{M} = \bigcup_R S^3_R$ (see [Foundations](README.md#foundations)) and the cosmic epoch $\tau$ indexing it:
+$$ds^2 = -c^2\, d\tau^2 + ds^2_{S^3_R}$$
 
-$$(R_A, q_A) \prec (R_B, q_B) \iff R_A < R_B \iff \tau_A < \tau_B$$
-
-Events on the same leaf $S^3_R$ are simultaneous. Any physical signal — whether at $c_{\text{light}}$ or faster — traverses a finite arc in a nonzero epoch interval $\Delta\tau > 0$, so emission and reception lie on distinct leaves and are strictly ordered. The "same leaf" case is the idealized notion of *now* on $S^3_R$, not a gap in the causal structure.
-
-Since $R$ grows monotonically under the dynamical law $dR/d\tau = c(1 - R/R_{\max})$, every signal moves forward across leaves, never backward. A particle can cross a given leaf at any arc speed, but it cannot revisit an earlier leaf: returning to a smaller $R$ would require mass to convert back to energy on cosmic scale, which the conversion kinetics forbid.
-
-Causal order is therefore preserved by the **direction of expansion**, not by a local speed limit. Faster-than-light motion on a leaf is compatible with strict global causal ordering.
-
-If $R$ were to shrink (a cyclic scenario), causal ordering would break down. Since causality is empirically observed, the monotonic growth of $R$ is a requirement of the theory, realized by the asymptotic approach to $R_{\max}$.
+A signal between two points on the same spatial leaf $S^3_{R(\tau)}$ must propagate through spacetime, accumulating $\Delta\tau > 0$ bounded below by the arc length divided by $c$. No signal crosses a leaf instantaneously, and no worldline closes in time, so causality is preserved without any appeal to the global expansion direction.
 
 ## Conclusion
 
 What the theory permits:
 
-- Moving faster than light through space at a given epoch
-- Arriving at distant locations in less time than light would
+- All of Special and General Relativity, including $E = \gamma m_p c^2$ and light cones.
+- Cosmic expansion driven by energy-to-mass conversion, with $R(\tau) = R_{\max}(1 - e^{-c\tau/R_{\max}})$.
 
-What the theory does not permit:
+What the theory does **not** permit:
 
-- Traveling backward in time — this would require $R$ to shrink
-- Causal paradoxes — epochs are strictly ordered by $R$
+- Faster-than-light propulsion or signalling.
+- Superluminal shortcuts through the hypersphere.
+- Any violation of the standard Lorentz-invariant kinematics at the level of fundamental physics.
 
-Faster-than-light travel on S³ is a question of propulsion, not of fundamental physics. The destination is the future, never the past.
+The price of empirical consistency (with time dilation, muon lifetimes, the whole relativistic catalogue) is that the speed of light remains what it has always been: the universal limit.
 
 ## References
 

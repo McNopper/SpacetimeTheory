@@ -16,19 +16,9 @@ by *Norbert Nopper*
 
 ![Open Questions Roadmap](open_questions_roadmap.png)
 
-The Quaternion-Hypersphere Theory of Spacetime is a self-contained geometric framework: quaternion events on a foliation $\mathcal{M} = \bigcup_R S^3_R$ with Euclidean signature $(+,+,+,+)$, $R$ identified with the Schwarzschild radius of the total mass, an explicit growth law $dR/d\tau = c(1 - R/R_{\max})$, and causal ordering given by the cosmic epoch $\tau$ (see [Foundations](README.md#foundations)).
+The Quaternion-Hypersphere Theory of Spacetime is a self-contained geometric framework: a Lorentzian foliation $\mathcal{M} = \mathbb{R}_\tau \times S^3_{R(\tau)}$ with closed FLRW metric $ds^2 = -c^2\, d\tau^2 + ds^2_{S^3_R}$, spatial slices parameterized by unit quaternions, $R$ identified with the Schwarzschild radius of the total mass of the universe, and the explicit growth law $dR/d\tau = c(1 - R/R_{\max})$ (see [Foundations](README.md#foundations)).
 
-What remains open is **empirical** — whether the framework's predictions agree with observation. This document collects those empirical tests.
-
-## Effective Lorentz Invariance
-
-The theory uses a Euclidean signature, with Euclidean proper time along worldlines (moving observers accumulate $\lambda \geq \tau$, not $\leq \tau$). Lorentz invariance is experimentally confirmed to extraordinary precision, so any viable framework must agree with those measurements in the tested regime.
-
-The empirical questions are:
-
-- **Direct Lorentz-invariance tests** — Hughes–Drever experiments, modern Michelson–Morley variants, and atomic-clock comparisons constrain deviations from Lorentz symmetry to parts in $10^{-18}$ and beyond. Do the predictions of Euclidean proper time on $S^3_R$ fit within those bounds at accessible energies?
-- **Particle-accelerator kinematics** — Relativistic $\gamma$ factors are measured routinely at colliders. Does the Euclidean kinetic energy $\tfrac{1}{2}m_p v^2$ derived in [Faster Than Light](FasterThanLight.md) admit a reparameterization in observer-measured quantities that reproduces the observed $E$–$p$ relation in the tested energy range?
-- **Time-dilation observations** — Muon lifetimes, GPS clock corrections, and binary-pulsar timings confirm time dilation. Can the framework reproduce these numerically?
+Because the signature is Lorentzian, Special and General Relativity are built in — Lorentz invariance, time dilation, light cones, and the $c$-limit are not open questions. What remains open is **empirical**: whether the cosmological predictions of the framework agree with observation. This document collects those tests.
 
 ## Expansion History and Comparison with ΛCDM
 
@@ -70,22 +60,23 @@ The approximate agreement is striking and has been noted in black hole cosmology
 
 ## Gravitational Phenomena
 
-The current framework describes the global geometry of the universe. Any extension to local gravity must be tested against the high-precision measurements of General Relativity:
+Local gravity in the current framework is inherited from the Lorentzian metric and is expected to reproduce General Relativity in the appropriate limit. The empirical tests are the usual ones, now to be verified within the FLRW $k=+1$ background of this theory:
 
-- **Gravitational time dilation** — Pound–Rebka, GPS clock corrections, and optical-clock comparisons across gravitational potentials. Any local curvature correction to the geometric time relation $t_{\mathcal{O}} = \sqrt{R^2 - r_{\mathcal{O}}^2}/c$ must reproduce these to the measured precision.
-- **Orbital mechanics** — Perihelion precession of Mercury, light bending by the Sun, Shapiro delay, and Lense–Thirring precession. The Schwarzschild and Kerr solutions describe these to extraordinary accuracy; any S³-based local description must match.
-- **Gravitational waves** — LIGO/Virgo detections of binary mergers. A consistent extension of the framework must reproduce the observed waveforms.
+- **Gravitational time dilation** — Pound–Rebka, GPS clock corrections, and optical-clock comparisons across gravitational potentials.
+- **Orbital mechanics** — Perihelion precession of Mercury, light bending by the Sun, Shapiro delay, and Lense–Thirring precession.
+- **Gravitational waves** — LIGO/Virgo detections of binary mergers; the predicted waveforms should match standard GR templates.
 - **Strong-field tests** — Event Horizon Telescope images, binary-pulsar timing (e.g. PSR J0737−3039), and black-hole ringdown modes.
+
+A minor but nontrivial task is to confirm that embedding the standard Schwarzschild / Kerr solutions into the $S^3_R$ spatial background introduces no deviations at solar-system or LIGO precision.
 
 ## Summary of Empirical Tests
 
 | Area | Predicted quantity | Observational comparison |
 |------|-------------------|-------------------------|
-| Lorentz invariance | Euclidean proper time on worldlines | Hughes–Drever, clock comparisons, accelerator kinematics |
 | Expansion history | $H(\tau) = (c/R)(1 - R/R_{\max})$ | SN Ia, BAO, Hubble-diagram data |
 | CMB signatures | Suppressed low multipoles, matched circles, small negative $\Omega_k$ | Planck CMB data |
 | Schwarzschild coincidence | $R \sim 2G m_{\text{universe}}/c^2$ | Observed $m_{\text{universe}}$ and Hubble radius |
-| Gravitational phenomena | Local-gravity extension of the framework | Solar-system tests, LIGO/Virgo, EHT, pulsar timing |
+| Gravitational phenomena | Standard GR on the $S^3_R$ background | Solar-system tests, LIGO/Virgo, EHT, pulsar timing |
 
 ## References
 
@@ -96,12 +87,9 @@ The current framework describes the global geometry of the universe. Any extensi
 - [General relativity](https://en.wikipedia.org/wiki/General_relativity)
 - [Gravitational wave](https://en.wikipedia.org/wiki/Gravitational_wave)
 - [Hubble's law](https://en.wikipedia.org/wiki/Hubble%27s_law)
-- [Hughes–Drever experiment](https://en.wikipedia.org/wiki/Hughes%E2%80%93Drever_experiment)
 - [Kerr metric](https://en.wikipedia.org/wiki/Kerr_metric)
 - [Lambda-CDM model](https://en.wikipedia.org/wiki/Lambda-CDM_model)
 - [LIGO](https://en.wikipedia.org/wiki/LIGO)
-- [Lorentz covariance](https://en.wikipedia.org/wiki/Lorentz_covariance)
-- [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment)
 - [Pound–Rebka experiment](https://en.wikipedia.org/wiki/Pound%E2%80%93Rebka_experiment)
 - [Schwarzschild metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)
 - [Shapiro time delay](https://en.wikipedia.org/wiki/Shapiro_time_delay)
