@@ -86,17 +86,62 @@ Two distinct notions of "time" appear in the theory and must not be conflated:
 
 To first approximation $\tau := R/c$, so that $R$ and $\tau$ grow together.
 
+### Comoving map between leaves
+
+Points on different leaves are identified by their hyperspherical angles. A comoving observer at fixed angular coordinates $(\chi_0, \theta_0, \phi_0)$ traces a radial ray in $\mathbb{R}^4$:
+
+$$q_{\text{comoving}}(\tau) = R(\tau) \cdot \hat{q}_0, \qquad \hat{q}_0 = (\cos\chi_0,\, \sin\chi_0\sin\theta_0\cos\phi_0,\, \sin\chi_0\sin\theta_0\sin\phi_0,\, \sin\chi_0\cos\theta_0)$$
+
+This is the analog of the FLRW comoving map $\vec{x} \mapsto a(t)\vec{x}$: angular coordinates are conserved, and physical arc length between two comoving observers is $R(\tau)\,\Delta\chi$, which grows with $R$. Cosmic expansion in this framework is this scaling of arc lengths on the leaves, not a local velocity of matter.
+
 ### Dynamical law for $R(\tau)$
 
-Expansion is specified by a monotone growth law. The simplest choice consistent with a finite maximum is:
+The growth law is not postulated but derived from a first-order kinetic assumption: the rate of energy-to-mass conversion is proportional to the un-converted energy remaining. Writing $m_{\max} := E_{\text{tot}}/c^2$ for the asymptotic mass,
 
-$$\frac{dR}{d\tau} = c \cdot f(R), \qquad f(R) = 1 - \frac{R}{R_{\max}}$$
+$$\frac{dm}{d\tau} = k\,(m_{\max} - m)$$
 
-which gives $R(\tau) = R_{\max}\bigl(1 - e^{-c\tau / R_{\max}}\bigr)$. The associated mass-formation rate follows from $R = 2Gm/c^2$:
+for some rate constant $k > 0$. The only rate constant available from the theory's own content is $k = c/R_{\max}$ (the inverse light-crossing time of the asymptotic universe). Using $R = 2Gm/c^2$ and $R_{\max} = 2Gm_{\max}/c^2$:
 
-$$\frac{dm}{d\tau} = \frac{c^2}{2G} \frac{dR}{d\tau}$$
+$$\frac{dR}{d\tau} = c\left(1 - \frac{R}{R_{\max}}\right)$$
 
-Total energy $E_{\text{tot}} = mc^2 + E_{\text{rad}}$ is conserved; radiation energy decreases as mass energy increases. Any monotone $f \geq 0$ with $f(R_{\max}) = 0$ is admissible; the specific form above is an illustrative minimal choice.
+This is the growth law. It has a unique solution with $R(0) = 0$:
+
+$$R(\tau) = R_{\max}\left(1 - e^{-c\tau / R_{\max}}\right)$$
+
+Total energy is conserved: $E_{\text{tot}} = mc^2 + E_{\text{rad}}$, with $E_{\text{rad}}(\tau) = E_{\text{tot}}\,e^{-c\tau/R_{\max}}$ decaying exponentially into mass. The identification $\tau := R/c$ is exact only at $\tau = 0$; more generally $\tau$ is defined as the integrated epoch parameter above.
+
+### Hubble parameter
+
+The Hubble parameter is defined from the comoving map as the logarithmic rate of change of the scale $R$:
+
+$$H(\tau) = \frac{1}{R}\frac{dR}{d\tau} = \frac{c}{R_{\max}} \cdot \frac{e^{-c\tau/R_{\max}}}{1 - e^{-c\tau/R_{\max}}} = \frac{c}{R}\left(1 - \frac{R}{R_{\max}}\right)$$
+
+In the early universe ($R \ll R_{\max}$), $H \approx c/R$ — a large Hubble rate. Asymptotically ($R \to R_{\max}$), $H \to 0$: expansion freezes without a cosmological constant. Comparison with observational $H(z)$ is an empirical open question (see [Outlook](Outlook.md)).
+
+### Massless field propagation and $c_{\text{light}}$
+
+Massless fields $\phi$ on a leaf satisfy the wave equation built from the Laplace–Beltrami operator of the Euclidean metric on $S^3_R$, combined with the foliation-epoch parameter $\tau$:
+
+$$\left(\frac{1}{c^2}\partial_\tau^2 - \Delta_{S^3_R}\right)\phi = 0$$
+
+Characteristics of this equation propagate along great-circle geodesics of $S^3_R$ with arc-length speed
+
+$$\frac{d(\text{arc})}{d\tau} = c_{\text{light}} = c$$
+
+Photons are thus defined by this wave equation, not by null geodesics of a Lorentzian bulk metric. The speed $c_{\text{light}}$ is a property of the field equation, numerically equal to $c_{\text{geom}}$ but independently derivable. Massive particles obey the Lagrangian dynamics of [Faster Than Light](FasterThanLight.md#lagrangian-on-s) and are not bound by $c_{\text{light}}$.
+
+The constant $c$ thus plays two conceptually distinct roles that happen to coincide numerically:
+
+- $c_{\text{geom}}$ — a **unit conversion factor** in $ct$, with units m/s, putting the temporal and spatial components of $q$ on the same footing. It imposes no kinematic speed limit.
+- $c_{\text{light}}$ — the **propagation speed** of massless-field characteristics on $S^3_R$, derived from the wave equation above.
+
+### Worldlines and proper time
+
+A worldline is a curve $\gamma: \tau \mapsto (\tau, q(\tau))$ with $q(\tau) \in S^3_{R(\tau)}$. Along $\gamma$, the natural affine parameter is the Euclidean 4-arc length in $\mathbb{R}^4$,
+
+$$d\lambda^2 = d\tau^2 + \frac{1}{c^2}\,ds_{S^3_R}^2$$
+
+so that stationary (comoving) observers have $\lambda = \tau$, while moving observers accumulate $\lambda > \tau$. This is the opposite sign convention to Minkowski proper time — a direct consequence of the Euclidean signature. No Lorentz factor appears. Whether an effective Lorentzian proper time emerges in an appropriate limit is an empirical open question (see [Outlook](Outlook.md)).
 
 ### Causal order
 
@@ -104,16 +149,9 @@ Events are ordered by epoch:
 
 $$(R_A, q_A) \prec (R_B, q_B) \iff R_A < R_B$$
 
-Events sharing the same $R$ (i.e. lying on the same leaf $S^3_R$) are causally unrelated. Causality is thus a property of the foliation, not of the metric signature. Because $R$ is required to grow monotonically, the ordering is a total order on epochs and a well-defined partial order on events.
+Events sharing the same $R$ (i.e. lying on the same leaf $S^3_R$) are **simultaneous** — causally unrelated within that leaf. Finite-arc signalling between two points on $S^3_R$ is never truly intra-leaf: any massless or massive signal traverses the arc in a nonzero epoch interval $\Delta\tau > 0$ (the arc divided by the signal's speed), so the emission and reception events lie on distinct leaves and are strictly ordered by $\tau$. The "same leaf" case is the idealized simultaneous slice — a well-defined notion of *now* on $S^3_R$, not a pathology.
 
-### Two roles of $c$
-
-The constant $c$ plays two conceptually distinct roles:
-
-- $c_{\text{geom}}$ — a **unit conversion factor** in $ct$, with units m/s, which puts the temporal and spatial components of $q$ on the same footing. It imposes no kinematic speed limit.
-- $c_{\text{light}}$ — the **propagation speed of light** on $S^3_R$, an empirical quantity to be derived from the dynamics of massless fields in this geometry.
-
-In standard physics these are identified; in this framework they are equal numerically but conceptually separate. Statements about "faster-than-light" motion (see [Faster Than Light](FasterThanLight.md)) refer to $c_{\text{light}}$ and assert that nothing in the S³ geometry enforces $v \leq c_{\text{light}}$ as a universal bound.
+Because $R$ grows monotonically, the ordering is a total order on epochs and a well-defined partial order on events.
 
 ## Novelty
 

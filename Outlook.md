@@ -16,34 +16,31 @@ by *Norbert Nopper*
 
 ![Open Questions Roadmap](open_questions_roadmap.png)
 
-The Quaternion-Hypersphere Theory of Spacetime provides a geometric framework — quaternion events on S³ with Euclidean signature $(+,+,+,+)$ and $R$ as the Schwarzschild radius of the total mass. Several results follow directly: time as a geometric coordinate, the absence of a light speed barrier, and causal ordering from monotonic $R$ growth.
+The Quaternion-Hypersphere Theory of Spacetime is a self-contained geometric framework: quaternion events on a foliation $\mathcal{M} = \bigcup_R S^3_R$ with Euclidean signature $(+,+,+,+)$, $R$ identified with the Schwarzschild radius of the total mass, an explicit growth law $dR/d\tau = c(1 - R/R_{\max})$, and causal ordering given by the cosmic epoch $\tau$ (see [Foundations](README.md#foundations)).
 
-What remains open is the quantitative machinery. This document collects the key areas where the theory requires further development.
+What remains open is **empirical** — whether the framework's predictions agree with observation. This document collects those empirical tests.
 
 ## Effective Lorentz Invariance
 
-The theory uses a Euclidean signature, yet Lorentz invariance is experimentally confirmed to extraordinary precision. The framework must explain how Lorentz-invariant behavior emerges as an effective phenomenon. Possible directions:
+The theory uses a Euclidean signature, with Euclidean proper time along worldlines (moving observers accumulate $\lambda \geq \tau$, not $\leq \tau$). Lorentz invariance is experimentally confirmed to extraordinary precision, so any viable framework must agree with those measurements in the tested regime.
 
-- **Local approximation** — On a sufficiently small patch of S³, the Euclidean metric may reduce to an approximately Minkowski metric, analogous to how the surface of a large sphere appears flat locally
-- **Wick rotation connection** — The Euclidean signature is already used in quantum gravity via Wick rotation ($t \to it$). The relationship between this analytic continuation and the present theory deserves exploration.
-- **Experimental bounds** — High-precision tests of Lorentz invariance (e.g. Hughes-Drever experiments, Michelson-Morley at extreme precision) could constrain or confirm deviations predicted by a fundamentally Euclidean metric
+The empirical questions are:
 
-This is perhaps the most critical open question: any viable theory must reproduce the well-tested predictions of Special Relativity in the appropriate limit.
+- **Direct Lorentz-invariance tests** — Hughes–Drever experiments, modern Michelson–Morley variants, and atomic-clock comparisons constrain deviations from Lorentz symmetry to parts in $10^{-18}$ and beyond. Do the predictions of Euclidean proper time on $S^3_R$ fit within those bounds at accessible energies?
+- **Particle-accelerator kinematics** — Relativistic $\gamma$ factors are measured routinely at colliders. Does the Euclidean kinetic energy $\tfrac{1}{2}m_p v^2$ derived in [Faster Than Light](FasterThanLight.md) admit a reparameterization in observer-measured quantities that reproduces the observed $E$–$p$ relation in the tested energy range?
+- **Time-dilation observations** — Muon lifetimes, GPS clock corrections, and binary-pulsar timings confirm time dilation. Can the framework reproduce these numerically?
 
 ## Expansion History and Comparison with ΛCDM
 
-The theory predicts that cosmic expansion is driven entirely by energy-to-mass conversion, with no cosmological constant. This yields a specific expansion history:
+The theory predicts a specific expansion history $R(\tau) = R_{\max}\bigl(1 - e^{-c\tau/R_{\max}}\bigr)$ and Hubble parameter
 
-- Early universe: rapid conversion, fast growth of $R$
-- Present: ongoing conversion, slowing growth
-- Future: $R$ asymptotically approaches $R_{\max}$
+$$H(\tau) = \frac{c}{R}\left(1 - \frac{R}{R_{\max}}\right)$$
 
-A quantitative comparison with ΛCDM requires:
+with no cosmological constant. The empirical questions are:
 
-- A model of the energy-to-mass conversion rate as a function of epoch
-- Deriving the equivalent of the Friedmann equations within the S³ framework
-- Comparing the predicted Hubble parameter $H(z)$ and luminosity distance $d_L(z)$ against supernova and BAO data
-- Checking whether the theory can reproduce the observed accelerated expansion without dark energy
+- Comparing the predicted $H(z)$ and luminosity distance $d_L(z)$ against Type Ia supernovae and BAO data
+- Checking whether the single free parameter $R_{\max}$ (equivalently $E_{\text{tot}}$) can fit the observed expansion history as well as ΛCDM's two parameters ($\Omega_m$, $\Omega_\Lambda$)
+- Testing whether the predicted asymptotic freeze-out ($H \to 0$ as $R \to R_{\max}$) is consistent with or distinguishable from ΛCDM's de Sitter attractor at late times
 
 ## CMB Signatures of Finite Geometry
 
@@ -71,48 +68,41 @@ The approximate agreement is striking and has been noted in black hole cosmology
 - Clarifying whether $R$ corresponds to the Hubble radius, the particle horizon, or another cosmological scale
 - Determining how $R$ evolves relative to the standard scale factor $a(t)$
 
-## Gravitational Effects
+## Gravitational Phenomena
 
-The current framework describes the global geometry of the universe but does not yet address local gravitational phenomena:
+The current framework describes the global geometry of the universe. Any extension to local gravity must be tested against the high-precision measurements of General Relativity:
 
-- **Gravitational time dilation** — General Relativity predicts that clocks run slower in deeper gravitational wells. How does the geometric time formula $t = \sqrt{R^2 - r^2}/c$ accommodate local curvature from massive objects?
-- **Orbital mechanics** — The Schwarzschild and Kerr solutions of General Relativity describe orbits around massive bodies with high precision. The S³ framework needs an equivalent local description.
-- **Gravitational waves** — Detected by LIGO/Virgo, these are perturbations of the Minkowski metric. Their description in a Euclidean-signature framework remains open.
+- **Gravitational time dilation** — Pound–Rebka, GPS clock corrections, and optical-clock comparisons across gravitational potentials. Any local curvature correction to the geometric time relation $t_{\mathcal{O}} = \sqrt{R^2 - r_{\mathcal{O}}^2}/c$ must reproduce these to the measured precision.
+- **Orbital mechanics** — Perihelion precession of Mercury, light bending by the Sun, Shapiro delay, and Lense–Thirring precession. The Schwarzschild and Kerr solutions describe these to extraordinary accuracy; any S³-based local description must match.
+- **Gravitational waves** — LIGO/Virgo detections of binary mergers. A consistent extension of the framework must reproduce the observed waveforms.
+- **Strong-field tests** — Event Horizon Telescope images, binary-pulsar timing (e.g. PSR J0737−3039), and black-hole ringdown modes.
 
-## Quantum Mechanics Interface
+## Summary of Empirical Tests
 
-The Euclidean signature connects naturally to several aspects of quantum theory:
-
-- **Wick rotation** — Quantum field theory in Euclidean space is standard practice. The present theory may provide a physical interpretation for what is usually treated as a mathematical trick.
-- **Path integrals** — Euclidean path integrals are generally better behaved (convergent) than their Lorentzian counterparts, though subtleties remain in quantum gravity. If the Euclidean signature is fundamental, this convergence may be physical rather than technical.
-- **Spin and quaternions** — Quaternions naturally describe spin-½ rotations (SU(2) ≅ S³). The fact that the theory's spacetime manifold is S³ — the same space as the SU(2) group manifold — may not be coincidental.
-
-These connections are suggestive but unexplored within the present framework.
-
-## Summary of Open Questions
-
-| Area | Status | Priority |
-|------|--------|----------|
-| Effective Lorentz invariance | Qualitative argument | High |
-| Expansion history vs. ΛCDM | Not yet computed | High |
-| CMB signatures | Identified, not quantified | Medium |
-| Schwarzschild coincidence | Order-of-magnitude match | Medium |
-| Local gravity | Not addressed | Medium |
-| Quantum mechanics interface | Suggestive connections | Exploratory |
+| Area | Predicted quantity | Observational comparison |
+|------|-------------------|-------------------------|
+| Lorentz invariance | Euclidean proper time on worldlines | Hughes–Drever, clock comparisons, accelerator kinematics |
+| Expansion history | $H(\tau) = (c/R)(1 - R/R_{\max})$ | SN Ia, BAO, Hubble-diagram data |
+| CMB signatures | Suppressed low multipoles, matched circles, small negative $\Omega_k$ | Planck CMB data |
+| Schwarzschild coincidence | $R \sim 2G m_{\text{universe}}/c^2$ | Observed $m_{\text{universe}}$ and Hubble radius |
+| Gravitational phenomena | Local-gravity extension of the framework | Solar-system tests, LIGO/Virgo, EHT, pulsar timing |
 
 ## References
 
 - [Baryon acoustic oscillations](https://en.wikipedia.org/wiki/Baryon_acoustic_oscillations)
 - [Cosmic microwave background](https://en.wikipedia.org/wiki/Cosmic_microwave_background)
+- [Event Horizon Telescope](https://en.wikipedia.org/wiki/Event_Horizon_Telescope)
 - [Friedmann equations](https://en.wikipedia.org/wiki/Friedmann_equations)
 - [General relativity](https://en.wikipedia.org/wiki/General_relativity)
 - [Gravitational wave](https://en.wikipedia.org/wiki/Gravitational_wave)
+- [Hubble's law](https://en.wikipedia.org/wiki/Hubble%27s_law)
 - [Hughes–Drever experiment](https://en.wikipedia.org/wiki/Hughes%E2%80%93Drever_experiment)
 - [Kerr metric](https://en.wikipedia.org/wiki/Kerr_metric)
 - [Lambda-CDM model](https://en.wikipedia.org/wiki/Lambda-CDM_model)
+- [LIGO](https://en.wikipedia.org/wiki/LIGO)
 - [Lorentz covariance](https://en.wikipedia.org/wiki/Lorentz_covariance)
 - [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment)
-- [Path integral formulation](https://en.wikipedia.org/wiki/Path_integral_formulation)
+- [Pound–Rebka experiment](https://en.wikipedia.org/wiki/Pound%E2%80%93Rebka_experiment)
 - [Schwarzschild metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)
-- [SU(2)](https://en.wikipedia.org/wiki/Special_unitary_group#The_group_SU(2))
-- [Wick rotation](https://en.wikipedia.org/wiki/Wick_rotation)
+- [Shapiro time delay](https://en.wikipedia.org/wiki/Shapiro_time_delay)
+- [Type Ia supernova](https://en.wikipedia.org/wiki/Type_Ia_supernova)

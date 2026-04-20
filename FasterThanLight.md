@@ -122,28 +122,17 @@ Neither ingredient of the Lorentz factor exists. The energy is $\frac{1}{2} m_p 
 
 In Special Relativity, light cones separate cause from effect. Faster-than-light signals could reach events outside the light cone, potentially violating causal order.
 
-On the foliated manifold $\mathcal{M} = \bigcup_R S^3_R$ (see [Foundations](README.md#foundations)), causality does not depend on a speed limit. It is defined by the cosmic epoch $\tau$, which indexes the foliation:
+In this framework, causality is defined by the foliation $\mathcal{M} = \bigcup_R S^3_R$ (see [Foundations](README.md#foundations)) and the cosmic epoch $\tau$ indexing it:
 
 $$(R_A, q_A) \prec (R_B, q_B) \iff R_A < R_B \iff \tau_A < \tau_B$$
 
-Events sharing the same $R$ (the same leaf $S^3_R$) are causally unrelated — they belong to a single epoch. Events on different leaves are strictly ordered by $\tau$.
+Events on the same leaf $S^3_R$ are simultaneous. Any physical signal — whether at $c_{\text{light}}$ or faster — traverses a finite arc in a nonzero epoch interval $\Delta\tau > 0$, so emission and reception lie on distinct leaves and are strictly ordered. The "same leaf" case is the idealized notion of *now* on $S^3_R$, not a gap in the causal structure.
 
-- $R$ grows monotonically as energy converts to mass (via the dynamical law $dR/d\tau = c \cdot f(R)$)
-- Returning to a smaller $R$ would require mass to convert back to energy on cosmic scale, which is cosmologically suppressed
-- Causal order is therefore a property of the **foliation**, not of the local metric
+Since $R$ grows monotonically under the dynamical law $dR/d\tau = c(1 - R/R_{\max})$, every signal moves forward across leaves, never backward. A particle can cross a given leaf at any arc speed, but it cannot revisit an earlier leaf: returning to a smaller $R$ would require mass to convert back to energy on cosmic scale, which the conversion kinetics forbid.
 
-A particle can move at any speed on a given $S^3_R$ at a given epoch, but it cannot travel backward to an earlier leaf.
+Causal order is therefore preserved by the **direction of expansion**, not by a local speed limit. Faster-than-light motion on a leaf is compatible with strict global causal ordering.
 
-This has a further implication: if $R$ were to shrink (as in a cyclic scenario), causal ordering would break down — events could no longer be strictly ordered by epoch. Since causality is empirically observed, the monotonic growth of $R$ is not merely an assumption but a requirement of the theory. This favors the stable scenario described in the [Quaternion-Hypersphere Theory](README.md), where $R$ asymptotically approaches $R_{\max}$ as energy-to-mass conversion nears completion.
-
-## The Two Roles of $c$
-
-The statement "faster than light is possible" is precise only when two distinct roles of the constant $c$ are separated (see [Foundations](README.md#foundations)):
-
-- $c_{\text{geom}}$ — a **unit conversion factor** appearing in $ct$ so that all four quaternion components share the unit of length. It imposes no kinematic limit.
-- $c_{\text{light}}$ — the **propagation speed of light** on $S^3_R$, an empirical quantity.
-
-Numerically $c_{\text{geom}} = c_{\text{light}}$, but conceptually they differ. The claim of this section is that the S³ geometry imposes no bound $v \leq c_{\text{light}}$ on massive particles: the Lagrangian admits great-circle motion at arbitrary angular velocity $\omega$, and no divergence in energy appears at any speed. Whether a specific propulsion mechanism can realize such speeds is a separate, empirical question.
+If $R$ were to shrink (a cyclic scenario), causal ordering would break down. Since causality is empirically observed, the monotonic growth of $R$ is a requirement of the theory, realized by the asymptotic approach to $R_{\max}$.
 
 ## Conclusion
 
