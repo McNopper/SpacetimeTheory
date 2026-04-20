@@ -78,7 +78,7 @@ A signal between two points on the same spatial leaf $S^3_{R(\tau)}$ must propag
 What the theory permits:
 
 - All of Special and General Relativity, including $E = \gamma m_p c^2$ and light cones.
-- Cosmic expansion driven by energy-to-mass conversion, with $R(\tau) = R_{\max}(1 - e^{-c\tau/R_{\max}})$.
+- Cosmic expansion governed by the standard Friedmann equation on the closed $S^3$ geometry (closed-$\Lambda$CDM).
 
 What the theory does **not** permit:
 

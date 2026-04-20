@@ -72,7 +72,7 @@ This is the ordinary Lorentz factor. At $v \to c$ the factor vanishes — time d
 
 ## Why time emerges with mass
 
-At $\tau = 0$ no mass has formed, so $R(0) = 0$: the spatial universe is a point, and there is no room for anything to happen. As energy converts to mass the radius $R(\tau)$ grows, space opens up, and cosmic time $\tau$ accumulates. In this sense time *emerges* together with mass: the existence of a nontrivial temporal axis requires a nontrivial spatial universe to extend in, and that spatial universe is built by the ongoing conversion $E \to m$.
+At $\tau = 0$ no mass has formed, so $R(0) = 0$: the spatial universe is a point, and there is no room for anything to happen. As $\tau$ advances the universe expands according to the Friedmann equation, the radius $R(\tau)$ grows, space opens up, and cosmic time $\tau$ accumulates. In this sense time *emerges* together with a nontrivial spatial universe: the existence of a meaningful temporal axis presupposes matter — physical clocks are built from matter — and a nontrivial spatial universe for those clocks to reside in. The philosophical content is the operational coupling of time to matter; the dynamical content is standard FLRW cosmology.
 
 ## References
 

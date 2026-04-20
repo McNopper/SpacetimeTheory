@@ -57,11 +57,11 @@ Here $E$ and $R$ track the **mass-energy** component only. At the singularity, n
 | State | Description | Hypersphere |
 |-------|-------------|-------------|
 | Singularity | No mass formed ($m = 0$) | $R = 0$ |
-| Big Bang | Energy → mass begins | $R$ starts growing |
-| Present | Ongoing conversion | $R$ is large |
-| Future | Conversion approaches completion | $R \to R_{\max} = \frac{2GE_{\text{total}}}{c^4}$ |
+| Big Bang | Mass-energy content of the universe set | $R$ starts growing |
+| Present | Ongoing FLRW expansion | $R$ is large, close to the Hubble radius |
+| Future | Late-time de Sitter attractor | $R$ grows without bound |
 
-Cosmic expansion is driven by the conversion $E = mc^2$, not by a cosmological constant.
+Cosmic expansion is governed by the standard Friedmann equation on the closed $S^3$ spatial geometry (matter + cosmological constant); see [Foundations](#foundations).
 
 ## Foundations
 
@@ -71,7 +71,7 @@ To make the preceding picture a well-defined dynamical framework rather than a s
 
 Spacetime is a four-dimensional Lorentzian manifold foliated by spatial three-spheres of increasing radius:
 
-$$\mathcal{M} = \mathbb{R}_\tau \times S^3_{R(\tau)}, \qquad R: \tau \mapsto R(\tau) \in [0,\, R_{\max}]$$
+$$\mathcal{M} = \mathbb{R}_\tau \times S^3_{R(\tau)}, \qquad R: \tau \mapsto R(\tau) \ge 0$$
 
 An **event** is a pair $(\tau, q)$ with $\tau \in \mathbb{R}$ the cosmic time and $q \in S^3_{R(\tau)}$ the spatial position, represented as a quaternion $|q| = R(\tau)$ in the four-dimensional Euclidean embedding space.
 
@@ -97,27 +97,26 @@ This is the FLRW comoving map: angular coordinates are conserved, and physical a
 
 ### Dynamical law for $R(\tau)$
 
-The growth law is derived from a first-order kinetic assumption: the rate of energy-to-mass conversion is proportional to the un-converted energy remaining. Writing $m_{\max} := E_{\text{tot}}/c^2$ for the asymptotic mass,
+The dynamics of $R(\tau)$ is the standard **Friedmann equation** obtained from the Einstein field equations applied to the closed FLRW metric above. With matter density $\rho_m$, radiation density $\rho_r$, and a cosmological constant $\Lambda$,
 
-$$\frac{dm}{d\tau} = k\,(m_{\max} - m)$$
+$$\left(\frac{1}{R}\frac{dR}{d\tau}\right)^{\!2} = \frac{8\pi G}{3}\bigl(\rho_m + \rho_r\bigr) - \frac{c^2}{R^2} + \frac{\Lambda c^2}{3}.$$
 
-for some rate constant $k > 0$. The only rate constant available from the theory's own content is $k = c/R_{\max}$ (the inverse light-crossing time of the asymptotic universe). Using $R = 2Gm/c^2$ and $R_{\max} = 2Gm_{\max}/c^2$:
+In terms of present-day density parameters $\Omega_m, \Omega_r, \Omega_k \le 0, \Omega_\Lambda$ (with $\Omega_m + \Omega_r + \Omega_k + \Omega_\Lambda = 1$ and $\Omega_k = -c^2/(H_0^2 R_0^2)$), the Hubble parameter as a function of redshift $z = R_0/R - 1$ is
 
-$$\frac{dR}{d\tau} = c\left(1 - \frac{R}{R_{\max}}\right)$$
+$$H(z)^2 = H_0^2\bigl[\,\Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_k(1+z)^2 + \Omega_\Lambda\,\bigr].$$
 
-This is the growth law. It has a unique solution with $R(0) = 0$:
+This is **closed ΛCDM**: the geometric core of the theory (the $S^3$ spatial slices parameterized by unit quaternions) is retained, while the cosmological dynamics is supplied by the Einstein field equations applied to that geometry.
 
-$$R(\tau) = R_{\max}\left(1 - e^{-c\tau / R_{\max}}\right)$$
+> **Historical note.** An earlier version of this write-up proposed the first-order "conversion-kinetic" law $dR/d\tau = c(1 - R/R_{\max})$, derived by dimensional analysis from the assumption that energy converts into mass at a rate proportional to the un-converted energy remaining. That law is not a solution of the Einstein equations and predicts a monotonically decelerating expansion, $q(z) = x_0/(1+z-x_0) > 0$. A direct fit to 1580 Pantheon+SH0ES Type Ia supernovae yields $\Delta\chi^2 \approx +237$ versus flat $\Lambda$CDM, rejecting the kinetic law at roughly 15$\sigma$. It is retained here only for historical reference and has been replaced by the Friedmann equation above.
 
-Total energy is conserved: $E_{\text{tot}} = mc^2 + E_{\text{rad}}$, with $E_{\text{rad}}(\tau) = E_{\text{tot}}\,e^{-c\tau/R_{\max}}$ decaying exponentially into mass. This $R(\tau)$ plays the role of the FLRW scale factor (up to the identification $a(\tau) \propto R(\tau)$) and replaces the usual Friedmann equation: expansion is driven by the conversion kinetics, not by a cosmological constant.
+### Why still "quaternion-hypersphere"?
 
-### Hubble parameter
+Under this replacement, the distinctive claims of the theory are:
 
-The Hubble parameter is defined from the comoving map as the logarithmic rate of change of the scale $R$:
-
-$$H(\tau) = \frac{1}{R}\frac{dR}{d\tau} = \frac{c}{R_{\max}} \cdot \frac{e^{-c\tau/R_{\max}}}{1 - e^{-c\tau/R_{\max}}} = \frac{c}{R}\left(1 - \frac{R}{R_{\max}}\right)$$
-
-In the early universe ($R \ll R_{\max}$), $H \approx c/R$ — a large Hubble rate. Asymptotically ($R \to R_{\max}$), $H \to 0$: expansion freezes without a cosmological constant. Comparison with observational $H(z)$ is the primary empirical test (see [Outlook](Outlook.md)).
+1. **Closed spatial topology $S^3$**, naturally parameterized by unit quaternions. The closed ($k=+1$) FLRW branch is a *choice* within standard GR; most modern fits (Pantheon+ alone, Planck + BAO) are consistent with $\Omega_k$ small but not manifestly zero, and the theory predicts $\Omega_k < 0$ strictly.
+2. **Schwarzschild-radius identification** $R(\tau) = 2Gm(\tau)/c^2$ as a consistency condition between the total mass-energy content and the curvature radius. This is a numerological coincidence in any near-critical FLRW model; whether it has independent dynamical content is an open question.
+3. **Arrow of time from monotonic expansion.** Cosmic time $\tau$ is distinguished by the monotonic growth of $R(\tau)$ (Friedmann solutions with $\Lambda > 0$ and $\Omega_m < 1$ are monotonic to the future).
+4. **A definition of time tied to the existence of matter.** Local clocks are physical systems built from matter; in the pre-matter limit there is nothing to register a duration, and cosmic $\tau$ becomes operationally void. This is a philosophical stance, not an additional dynamical equation.
 
 ### Light, proper time, and causal structure
 
@@ -137,20 +136,19 @@ Within this framework, the speed of light $c$ is a true kinematic limit: no mass
 Each ingredient of this theory has precedent in the literature:
 
 - **Quaternions as a description of spatial geometry** — unit quaternions naturally parameterize the 3-sphere $S^3$; explored since Hamilton.
-- **Closed $k=+1$ FLRW cosmology** — standard General Relativity solution with positively curved spatial slices.
+- **Closed $k=+1$ FLRW cosmology** — a standard solution of the Einstein field equations with positively curved spatial slices.
 - **Schwarzschild radius as cosmic scale** — central to "universe as a black hole" models (Pathria, Good, and others).
-- **Expansion without a cosmological constant** — pursued by several alternative cosmologies.
 
-What is novel is the **specific synthesis**: a closed FLRW universe in which the spatial scale $R(\tau)$ is identified with the Schwarzschild radius of the total mass of the universe, $R = 2Gm/c^2$, and cosmic expansion is driven entirely by energy-to-mass conversion via the first-order kinetic law $dR/d\tau = c(1 - R/R_{\max})$. This replaces the Friedmann equation with a single conversion-rate equation and eliminates dark energy.
+What this write-up contributes is a **specific synthesis and an operational stance on time**: the closed ($k=+1$) FLRW branch of GR is adopted as the global geometry; the spatial slices are explicitly parameterized as unit-quaternion 3-spheres; the curvature radius is identified with the Schwarzschild radius $R(\tau) = 2Gm(\tau)/c^2$ of the total mass-energy content; and cosmic time $\tau$ is defined operationally as the parameter labelling these spatial slices, requiring matter for its physical realization. The cosmological dynamics itself is standard $\Lambda$CDM on the closed $S^3$, after the original "conversion-kinetic" law was found to be empirically excluded (see the historical note in [Foundations](#foundations)).
 
 ## Observable Implications
 
-Several features distinguish this framework from standard ΛCDM cosmology:
+The theory, in its corrected form, is a closed-$\Lambda$CDM model. Distinguishing predictions from flat $\Lambda$CDM are therefore restricted to curvature-sensitive observables:
 
-- **No cosmological constant** — Expansion is driven by energy-to-mass conversion rather than dark energy. The predicted expansion history $R(\tau) = R_{\max}(1 - e^{-c\tau/R_{\max}})$ differs from ΛCDM, particularly at late times when $R$ asymptotically approaches $R_{\max}$ and $H \to 0$ rather than approaching a de Sitter attractor.
-- **Finite maximum radius** — The universe has a definite upper bound $R_{\max} = \frac{2GE_{\text{total}}}{c^4}$, implying a closed spatial geometry ($\Omega_k < 0$). This could leave imprints in the cosmic microwave background (CMB) as suppressed large-angle correlations or matched-circle signatures.
-- **Schwarzschild radius coincidence** — The observable universe's radius should track the Schwarzschild radius of its total mass content. This relationship can be checked against current cosmological data for the observable mass-energy density and Hubble radius.
-- **Single free parameter** — Unlike ΛCDM's two density parameters ($\Omega_m$, $\Omega_\Lambda$), the expansion history is fixed by the single parameter $R_{\max}$ (equivalently $E_{\text{tot}}$), making the theory highly falsifiable.
+- **Strictly closed spatial geometry ($\Omega_k < 0$)** — the theory predicts $k = +1$, not $k = 0$. The most stringent current bound, from Planck 2018 + BAO, is $\Omega_k = 0.001 \pm 0.002$, consistent with $\Omega_k = 0$ and with a small negative $\Omega_k$. A future measurement establishing $\Omega_k < 0$ at high significance would support the theory; a measurement establishing $\Omega_k > 0$ would falsify it.
+- **Schwarzschild-radius consistency** — the identification $R(\tau) = 2Gm(\tau)/c^2$ couples the total mass-energy content to the curvature radius today. In near-critical FLRW this relation is automatically satisfied to within factors of order unity and therefore does not by itself constitute an independent test; it acquires predictive content only if combined with an independent dynamical derivation, which is not provided here.
+- **Matched-circle / large-angle CMB signatures** — a finite closed universe with $R_0$ below the particle horizon could imprint matched circles or suppressed low-$\ell$ power in the CMB. Existing searches constrain the antipode to be beyond the last-scattering surface; consistency with Planck therefore requires $|\Omega_k| \lesssim \text{few} \times 10^{-3}$.
+- **Supernova Hubble diagram** — with closed-FLRW $\Lambda$CDM dynamics, the theory fits Pantheon+SH0ES at the same level as flat $\Lambda$CDM (see [Outlook](Outlook.md)). This is a constraint satisfied, not a distinctive prediction.
 
 ## References
 

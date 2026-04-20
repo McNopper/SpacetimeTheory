@@ -16,7 +16,7 @@ by *Norbert Nopper*
 
 ## [Quaternion-Hypersphere Theory of Spacetime](README.md)
 
-Spacetime is foliated as $\mathcal{M} = \mathbb{R}_\tau \times S^3_{R(\tau)}$. Each spatial slice is a closed three-sphere of radius $R(\tau)$, parameterized by a unit quaternion $q = \xi + x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$ with $|q| = R$. All four quaternion components are **spatial**. Cosmic time $\tau$ is a separate Lorentzian coordinate with metric $ds^2 = -c^2\, d\tau^2 + ds^2_{S^3_R}$, so Special and General Relativity are built in. The radius equals the Schwarzschild radius of the total mass of the universe, $R = 2Gm/c^2$, and grows monotonically as energy converts to mass via $dR/d\tau = c(1 - R/R_{\max})$, yielding $R(\tau) = R_{\max}(1 - e^{-c\tau/R_{\max}})$.
+Spacetime is foliated as $\mathcal{M} = \mathbb{R}_\tau \times S^3_{R(\tau)}$. Each spatial slice is a closed three-sphere of radius $R(\tau)$, parameterized by a unit quaternion $q = \xi + x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$ with $|q| = R$. All four quaternion components are **spatial**. Cosmic time $\tau$ is a separate Lorentzian coordinate with metric $ds^2 = -c^2\, d\tau^2 + ds^2_{S^3_R}$, so Special and General Relativity are built in. The curvature radius is identified with the Schwarzschild radius of the total mass of the universe, $R = 2Gm/c^2$, and its evolution is governed by the **standard Friedmann equation** applied to this closed ($k=+1$) FLRW metric — i.e. closed-$\Lambda$CDM dynamics on top of an explicitly quaternion-parameterized $S^3$.
 
 ## [What is Time?](WhatIsTime.md)
 
@@ -28,12 +28,12 @@ The speed of light remains a fundamental limit. An earlier version of this theor
 
 ## [Outlook](Outlook.md)
 
-The geometric framework and the dynamical law are in place. What remains is empirical confrontation: a quantitative expansion history $R(\tau) = R_{\max}(1 - e^{-c\tau/R_{\max}})$ to compare with ΛCDM distance–redshift data, predicted CMB signatures of closed spatial geometry, and a direct check of the Schwarzschild-radius coincidence against observed mass-energy densities.
+The geometric framework and the dynamical law are in place: the geometry is a quaternion-parameterized closed $S^3$, and the dynamics is the standard Friedmann equation on that geometry. What remains is empirical confrontation: a quantitative test of the predicted *sign* of spatial curvature ($\Omega_k < 0$) against CMB + BAO bounds, a search for matched-circle or low-$\ell$ signatures in the CMB consistent with a closed antipode, and a direct check of the Schwarzschild-radius consistency relation $R_0 = 2Gm_{\text{tot}}/c^2$ against observed mass-energy densities.
 
 ## Conclusion
 
-Imagine the universe as the surface of a balloon. As more mass forms, the balloon inflates — that is $R$ growing. Everything you can touch or measure lives on this surface. Cosmic time $\tau$ is the inflation clock: it says which balloon size we are on, not where on the balloon you stand.
+Imagine the universe as the surface of a balloon. As cosmic time advances, the balloon inflates — that is $R$ growing. Everything you can touch or measure lives on this surface. Cosmic time $\tau$ is the inflation clock: it says which balloon size we are on, not where on the balloon you stand.
 
-Time isn't some mysterious force ticking away in the background. It's the accumulated history of the balloon's inflation. No mass, no balloon, no time.
+Time isn't some mysterious force ticking away in the background. It's the accumulated history of the balloon's inflation, realized physically by the matter-built clocks that ride on the balloon's surface. No mass, no clocks, no operational time.
 
-And the speed of light? It is what it has always been: the universal limit. Einstein's rule carries over unchanged. The balloon inflates monotonically and never deflates, so the arrow of time is built into the cosmology itself — not as an extra postulate, but as a consequence of the one-way conversion of energy into mass.
+And the speed of light? It is what it has always been: the universal limit. Einstein's rule carries over unchanged. The balloon inflates monotonically in the expanding branch we inhabit, so the arrow of time is built into the cosmology itself — a consequence of the expanding solution of the Friedmann equation on a closed three-sphere, not an extra postulate.
