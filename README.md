@@ -79,6 +79,12 @@ $$\mathcal{M} = \mathbb{R}_\tau \times S^3_{R(\tau)}, \qquad R: \tau \mapsto R(\
 
 An **event** is a pair $(\tau, q)$ with $\tau \in \mathbb{R}$ the cosmic time and $q \in S^3_{R(\tau)}$ the spatial position, represented as a quaternion $|q| = R(\tau)$ in the four-dimensional Euclidean embedding space.
 
+<p align="center">
+  <img src="figures/foliation.svg" alt="Dynamic Lorentzian cylinder: spacetime as a warped product R_tau x S^3_{R(tau)}. Cosmic time tau runs vertically, spatial S^3 slices (suppressed to S^1) are stacked horizontally with growing curvature radius R(tau). Comoving worldlines, an example light cone, and the initial singularity R(0) = 0 are indicated." width="640">
+</p>
+
+*Figure 1.* The manifold is topologically the cylinder $\mathbb{R}_\tau \times S^3$, but **geometrically a warped product**: the $S^3$ fiber's curvature radius $R(\tau)$ evolves under the Friedmann equation. One spatial dimension is suppressed in the diagram, so the $S^3$ slices appear as $S^1$ rings (front arc solid, back arc dashed). Comoving observers (green) sit at fixed angular coordinates $(\chi,\theta,\phi)$ and ride the expansion. The light cone (gold; drawn at 45° per the $c=1$ convention) illustrates that the local tangent space is Minkowski: null geodesics satisfy $c\,d\tau = ds_{S^3_R}$. The antipodal pair $p \leftrightarrow -p$ on slice $\tau_2$ exhibits the closed-$S^3$ topology in its quaternion form. The dashed radius marks $R(\tau_3)$, identified with the Schwarzschild scale $\sim 2Gm/c^2$. The singularity at $\tau=0$ is the point $R(0)=0$; the temporal axis is mathematically defined there but operationally void (no matter, no clocks).
+
 ### Metric and signature
 
 The spacetime metric is Lorentzian with signature $(-,+,+,+)$:

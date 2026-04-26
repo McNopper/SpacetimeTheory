@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 580" font-family="Georgia, 'Times New Roman', serif" font-size="14">
+  <title>Foliation of spacetime: dynamic Lorentzian cylinder over S^3</title>
+  <desc>Closed FLRW spacetime as a warped product R_tau x S^3_{R(tau)}. The S^3 fiber is suppressed to S^1 for visualization; cosmic time tau runs upward, the curvature radius R(tau) increases monotonically. Light cone is drawn with c = 1 convention.</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#222"/>
+    </marker>
+    <marker id="arrowLight" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b8860b"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="380" y="36" text-anchor="middle" font-size="16" fill="#111">
+    <tspan>Dynamic Lorentzian cylinder:  𝓜 = ℝ</tspan><tspan baseline-shift="sub" font-size="11">τ</tspan><tspan> × S³</tspan><tspan baseline-shift="sub" font-size="11">R(τ)</tspan>
+  </text>
+  <text x="380" y="56" text-anchor="middle" font-size="12" fill="#444">
+    warped product with metric  ds² = −c² dτ² + R(τ)² dΩ₃²    (S³ suppressed to S¹;  c = 1 visualization)
+  </text>
+
+  <!-- Trumpet (warped-product) surface: outline tangents slice endpoints
+       Slice key: y=440 rx=70  |  y=300 rx=130  |  y=100 rx=200  -->
+  <path d="M 380,500
+           Q 340,475 310,440
+           Q 270,375 250,300
+           Q 215,200 180,100
+           L 580,100
+           Q 545,200 510,300
+           Q 490,375 450,440
+           Q 420,475 380,500 Z"
+        fill="#eef3fb" stroke="#3a4a6b" stroke-width="1.5"/>
+
+  <!-- Spatial slices S^3_R(tau) -->
+  <!-- Slice 1: tau_1, R small -->
+  <ellipse cx="380" cy="440" rx="70" ry="13" fill="none" stroke="#3a4a6b" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M 310,440 A 70,13 0 0 0 450,440" fill="none" stroke="#3a4a6b" stroke-width="1.4"/>
+
+  <!-- Slice 2: tau_2 -->
+  <ellipse cx="380" cy="300" rx="130" ry="22" fill="none" stroke="#3a4a6b" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M 250,300 A 130,22 0 0 0 510,300" fill="none" stroke="#3a4a6b" stroke-width="1.4"/>
+
+  <!-- Slice 3: tau_3, R large -->
+  <ellipse cx="380" cy="100" rx="200" ry="32" fill="none" stroke="#3a4a6b" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M 180,100 A 200,32 0 0 0 580,100" fill="none" stroke="#3a4a6b" stroke-width="1.4"/>
+
+  <!-- Singularity point R(0) = 0 -->
+  <circle cx="380" cy="500" r="3.5" fill="#b00020"/>
+
+  <!-- Comoving worldlines: x(tau) = 380 + sin(chi) * R(tau)
+       Right at sin(chi) ≈ +0.55: through (380,500),(418,440),(452,300),(490,100)
+       Left mirror -->
+  <path d="M 380,500 Q 405,475 418,440 Q 440,375 452,300 Q 472,200 490,100"
+        fill="none" stroke="#0a6e3a" stroke-width="1.4"/>
+  <path d="M 380,500 Q 355,475 342,440 Q 320,375 308,300 Q 288,200 270,100"
+        fill="none" stroke="#0a6e3a" stroke-width="1.4"/>
+
+  <!-- Light cone at event on slice 2 (380, 300), drawn at 45 degrees (c = 1 convention).
+       Future cone reaches up to y = 200 (60 px each side), past cone down to y = 400. -->
+  <g stroke="#b8860b" stroke-width="1.6" fill="none">
+    <line x1="380" y1="300" x2="280" y2="200" marker-end="url(#arrowLight)"/>
+    <line x1="380" y1="300" x2="480" y2="200" marker-end="url(#arrowLight)"/>
+    <line x1="380" y1="300" x2="280" y2="400" stroke-dasharray="5,3"/>
+    <line x1="380" y1="300" x2="480" y2="400" stroke-dasharray="5,3"/>
+  </g>
+  <circle cx="380" cy="300" r="3" fill="#b8860b"/>
+
+  <!-- Cosmic-time axis tau -->
+  <line x1="80" y1="520" x2="80" y2="60" stroke="#222" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="62" y="60" font-style="italic">τ</text>
+  <text x="14" y="524" fill="#444">τ = 0</text>
+  <line x1="76" y1="500" x2="84" y2="500" stroke="#222" stroke-width="1.4"/>
+  <line x1="76" y1="440" x2="84" y2="440" stroke="#222"/>
+  <line x1="76" y1="300" x2="84" y2="300" stroke="#222"/>
+  <line x1="76" y1="100" x2="84" y2="100" stroke="#222"/>
+  <text x="92" y="444" fill="#444">τ₁</text>
+  <text x="92" y="304" fill="#444">τ₂</text>
+  <text x="92" y="104" fill="#444">τ₃</text>
+
+  <!-- Radius R(tau_3) annotation, with Schwarzschild-scale identification -->
+  <line x1="380" y1="100" x2="580" y2="100" stroke="#3a4a6b" stroke-width="0.9" stroke-dasharray="2,3"/>
+  <text x="478" y="92" fill="#3a4a6b" font-style="italic">R(τ₃)</text>
+  <text x="478" y="78" fill="#3a4a6b" font-size="11">~ 2Gm(τ₃)/c² (Schwarzschild scale)</text>
+
+  <!-- Antipodal pair on slice 2: convey closedness of S^3 (placed at horizontal extremes for visual clarity) -->
+  <circle cx="510" cy="300" r="3" fill="#5a3a8a"/>
+  <circle cx="250" cy="300" r="3" fill="none" stroke="#5a3a8a" stroke-width="1.4"/>
+  <text x="516" y="294" fill="#5a3a8a" font-size="12" font-style="italic">p</text>
+  <text x="244" y="294" fill="#5a3a8a" font-size="12" font-style="italic" text-anchor="end">−p</text>
+
+  <!-- Slice labels (right of each slice, italic, with unicode subscripts) -->
+  <text x="458" y="444" fill="#3a4a6b" font-style="italic">S³(τ₁)</text>
+  <text x="528" y="304" fill="#3a4a6b" font-style="italic">S³(τ₂)</text>
+  <text x="588" y="104" fill="#3a4a6b" font-style="italic">S³(τ₃)</text>
+
+  <!-- Annotations -->
+  <text x="395" y="514" fill="#b00020">singularity (R = 0)</text>
+
+  <text x="500" y="240" fill="#0a6e3a">comoving worldline</text>
+  <line x1="498" y1="236" x2="478" y2="220" stroke="#0a6e3a" stroke-width="0.8"/>
+
+  <text x="240" y="200" fill="#b8860b" text-anchor="end">future light cone</text>
+  <line x1="244" y1="196" x2="290" y2="220" stroke="#b8860b" stroke-width="0.8"/>
+  <text x="240" y="395" fill="#b8860b" text-anchor="end">past light cone</text>
+  <line x1="244" y1="391" x2="290" y2="380" stroke="#b8860b" stroke-width="0.8"/>
+
+  <!-- Footer note -->
+  <text x="380" y="560" text-anchor="middle" font-size="11" fill="#666">
+    Topologically a cylinder ℝ × S³;  geometrically a warped product — the S³ fiber's curvature radius R(τ) evolves under the Friedmann equation.
+  </text>
+</svg>
